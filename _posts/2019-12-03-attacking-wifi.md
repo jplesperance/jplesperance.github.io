@@ -15,9 +15,7 @@ This post will highlight many of the different aircrack-ng commands used in hack
 ### Monitor Mode
 There are a couple different options for putting your wifi adapter into monitor mode.
 
-```shell
-iw dev <interface> set monitor none
-```
+> `iw dev <interface> set monitor none`
 
 > `airmon-ng start <interface>`
 
@@ -30,22 +28,22 @@ The required parameters
 * `<int>` - The wireless interface that is in monitor mode
 
 The following flags are all optional
-* -c `<channel>` - This will filter your scan to a specific wifi channel
-* --wps - This flag will include WPS information for wireless networks found
-* -w `<capture>` - This flag will write the scan results to a file
-* --band `<bands>` - This flag allows you to only scan wifi networks operating on specified bands
-* --essid `<essid>` - This flag will filter the scan to a specific Client
-* --bssid `<bssid>` - This flag will filter the scan to a specific AP
+* `-c <channel>` - This will filter your scan to a specific wifi channel
+* `--wps` - This flag will include WPS information for wireless networks found
+* `-w <capture>` - This flag will write the scan results to a file
+* `--band <bands>` - This flag allows you to only scan wifi networks operating on specified bands
+* `--essid <essid>` - This flag will filter the scan to a specific Client
+* `--bssid <bssid>` - This flag will filter the scan to a specific AP
 
 ### Deauthentication Attack
 This attacks sends disassociate packets to one or more clients connected to a specific AP
 > `aireplay-ng -0 <num> -a <ap> -c <client> <int>`
 
 All parameters and flags are required
-* -0 - Deauthentication attack method
+* `-0` - Deauthentication attack method
 * `<num>` - The number of deauths to send, 0 will send continuously
-* -a `<ap>` - The mac address of the AP
-* -c `<client>` - The mac address of the client to deauthenticate
+* `-a <ap>` - The mac address of the AP
+* `-c <client>` - The mac address of the client to deauthenticate
 * `<int>` - The wireless interface to use
 
 ## Cracking
