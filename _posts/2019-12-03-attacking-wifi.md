@@ -7,17 +7,19 @@ This post will highlight many of the different aircrack-ng commands used in hack
 
 * [General](#general)
   * [Monitor Mode](#monitor-mode)
+  * [Scanning Networks](#scanning-networks)
+  * [Deauthentication Attack](#deauthentication-attack)
 
 ## General
 
-#### Monitor Mode
+### Monitor Mode
 There are a couple different options for putting your wifi adapter into monitor mode.
 
 > `iw dev <interface> set monitor none`
 
 > `airmon-ng start <interface>`
 
-#### Scanning Networks
+### Scanning Networks
 Airodump-ng is used to scan for wifi networks and clients that are in the range of your wireless card
 
 > `airodump-ng -c <channel> -w <capture> --wps --band abg --essid <essid> --bssid <bssid> <int>`
@@ -30,7 +32,7 @@ The following flags are all optional
 * --essid <essid> - This flag will filter the scan to a specific Client
 * --bssid <bssid> - This flag will filter the scan to a specific AP
 
-#### Deauthentication Attack
+### Deauthentication Attack
 > `aireplay-ng -0 1 -a <ap> -c <client> <int>`
 
 ## Cracking
