@@ -1,12 +1,8 @@
-Title: Attacking Wifi - Commands
-Date: 2019-12-03 18:35
-Modified: 2019-12-03 18:35
-Category: Hacking
-Tags: pentest, hacking, Wifi
-Slug: attacking-wifi
-Author: Jesse P Lesperance
-Summary: Commands for attacking Wifi
-
+---
+title: Attacking Wifi - Commands
+categories: [Hacking, Pen Testing, Wireless, Aircrack-ng]
+layout: post
+---
 ## General
 
 #### Monitor Mode
