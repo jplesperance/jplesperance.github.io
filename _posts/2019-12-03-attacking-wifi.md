@@ -24,6 +24,9 @@ Airodump-ng is used to scan for wifi networks and clients that are in the range 
 
 > `airodump-ng -c <channel> -w <capture> --wps --band abg --essid <essid> --bssid <bssid> <int>`
 
+The required parameters
+* <int> - The wireless interface that is in monitor mode
+
 The following flags are all optional
 * -c <channel> - This will filter your scan to a specific wifi channel
 * --wps - This flag will include WPS information for wireless networks found
@@ -33,7 +36,15 @@ The following flags are all optional
 * --bssid <bssid> - This flag will filter the scan to a specific AP
 
 ### Deauthentication Attack
-> `aireplay-ng -0 1 -a <ap> -c <client> <int>`
+This attacks sends disassociate packets to one or more clients connected to a specific AP
+> `aireplay-ng -0 <num> -a <ap> -c <client> <int>`
+
+All parameters and flags are required
+* -0 - Deauthentication attack method
+* <num> - The number of deauths to send, 0 will send continuously
+* -a <ap> - The mac address of the AP
+* -c <client> - The mac address of the client to deauthenticate
+* <int> - The wireless interface to use
 
 ## Cracking
 
