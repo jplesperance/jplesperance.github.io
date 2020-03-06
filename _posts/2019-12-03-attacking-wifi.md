@@ -9,6 +9,8 @@ This post will highlight many of the different aircrack-ng commands used in hack
   * [Monitor Mode](#monitor-mode)
   * [Scanning Networks](#scanning-networks)
   * [Deauthentication Attack](#deauthentication-attack)
+* [Cracking](#cracking)
+  * [IV-based Cracking](#iv-based-cracking)
 
 ## General
 
