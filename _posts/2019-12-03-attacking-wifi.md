@@ -14,7 +14,17 @@ This post will highlight many of the different aircrack-ng commands used in hack
   * [PTW Crack](#ptw-based-crack)
   * [Word List Crack](#word-list-based-crack)
   * [Airolib DB Crack](#airolib-db-crack)
-
+  * [JTR-based Crack](#jtr-based-crack)
+* [WEP Attacks](#wep-attacks)
+  * [Fake Authentication](#fake-authentication)
+  * [ARP Request Replay Attack](#arp-request-replay-attack)
+  * [Interactive Packet Replay Attack](#interactive-packet-replay-attack)
+  * [KoreK ChopChop Attack](#korek-chopchop-attack)
+  * [Fragmentation Attack](#fragmentation-attack)
+  * [Craft ARP Request Packet](#craft-arp-request-packet)
+  * [Inject Packet](#inject-packet)
+  * [Fake Shared Key Authentication](#fake-shared-key-authentication) 
+  
 ## General
 
 ### Monitor Mode
