@@ -54,14 +54,26 @@ The following are various methods that can be used to crack the authentication o
 
 ### IV-based Crack
 
-This method of cracking a WEP key 
+The following is a method of IV-based cracking.  This is aircrack-ng's default
+methed of cracking when no flags are provided.  This method only works for WEP,
+not WPA/WPA2/WPA3. 
 > `aircrack-ng <capture>`
 
 ### PTW-based Crack
+
+The PTW attack is both the newest and most powerful WEP attack.  It only
+require 20,000 to 40,000 packets to be successful, though in some cases as many
+as 70,000 packets could be needed for a successful attack.
 > `aircrack-ng -z <capture>`
 
+* `-z` Invokes WEP PTW Attack mode
+
 ### Word List-based Crack
+
+This method works for both WEP and WPA-PSK cracking.
 > `aircrack-ng -w <wordlist> <capture>`
+
+* `-w <wordlist>` The wordlist to use to try and crack WEP/WPA-PSK
 
 ### Airolib DB Crack
 > `aircrack-ng -r <dbName> <capture>`
