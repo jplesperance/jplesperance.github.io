@@ -11,6 +11,9 @@ This post will highlight many of the different aircrack-ng commands used in hack
   * [Deauthentication Attack](#deauthentication-attack)
 * [Cracking](#cracking)
   * [IV-based Crack](#iv-based-crack)
+  * [PTW Crack](#ptw-based-crack)
+  * [Word List Crack](#word-list-based-crack)
+  * [Airolib DB Crack](#airolib-db-crack)
 
 ## General
 
