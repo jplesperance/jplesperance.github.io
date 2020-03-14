@@ -141,7 +141,7 @@ The Interactive Packet Replay attack allows you to choose a specific packet for 
 * `-d ff:ff:ff:ff:ff:ff - Select packets with a broadcast destination address`
 * `-t 1 - Select packets with the "To Distribution System" flag set`
 * `-m <num> - Minimum packet size`
-* `-n <num> - Maximum packet size'
+* `-n <num> - Maximum packet size`
 
 #### KoreK chopchop attack
 > `aireplay-ng -4 -b <ap> -h <you> <interface>`
