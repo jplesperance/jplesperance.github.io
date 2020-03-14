@@ -89,10 +89,19 @@ This method works for both WEP and WPA-PSK cracking.
 * `-w <wordlist>` The wordlist to use to try and crack WEP/WPA-PSK
 
 ### Airolib DB Crack
+
+Airolib-ng is a tool for managing and storing ESSIDs and password lists, compute their Pairwise Master Keys, and use them to crack WPA and WPA2 passwords.
 > `aircrack-ng -r <dbName> <capture>`
 
+* `-r <dbName> - The name of the airolib-ng database`
+
 ### JTR-based Crack
+
+This method uses John the Ripper and a wordlist while applying word mangling rules to attempt to crack a WPA/WPA2 Password
 > `john --wordlist=<wordlist> --rules --stdout | aircrack-ng -e <essid> -w - <capture>`
+
+* `--wordlist=<wordlist> - The word list to use`
+* `--rules - apply word mangling rules`
 
 ## WEP Attacks
 
