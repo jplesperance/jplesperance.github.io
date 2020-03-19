@@ -4,7 +4,7 @@ layout: post
 categories: [Hacking, Pen Testing, Wireless, Aircrack-ng]
 ---
 
-This post will build off of the [Attacking Wifi - Commands](https://lesperance.io/attacking-wifi) post.  In this post, we will look at how to use the different commands in a series in different Wifi hacking scenarios.
+This post will build off of the [Attacking Wifi - Commands](https://lesperance.io/attacking-wifi-commands) post.  In this post, we will look at how to use the different commands in a series in different Wifi hacking scenarios.
 
 ## Cracking WEP with Connected Clients
 
