@@ -105,7 +105,7 @@ This method uses John the Ripper and a wordlist while applying word mangling rul
 
 ## WEP Attacks
 
-#### Fake Authentication
+### Fake Authentication
 
 The fake authentication attack allows you to associate to an access point using either of the two types of WEP authentication: the open system and shared key authentication.  
 
@@ -119,7 +119,7 @@ This attack is useful in scenarios where there are no associated clients and you
 * `-h <you> - Your attacking MAC address`
 
 
-#### ARP Request Replay Attack
+### ARP Request Replay Attack
 
 The ARP request replay attack is the most effective way to generate new initialization vectors and of all the attacks Aireplay has to offer, this attack is probably the most reliable.
 
@@ -131,7 +131,7 @@ The ARP request replay attack is the most effective way to generate new initiali
 
 For this attack, your wireless card needs to be in monitor mode and you will need either the MAC address of an associated client or your own MAC address after having performed a fake authentication with the AP.
 
-#### Interactive Packet Replay Attack
+### Interactive Packet Replay Attack
 
 The Interactive Packet Replay attack allows you to choose a specific packet for replaying/injecting against the target network.
 > `aireplay-ng -2 -b <ap> -d ff:ff:ff:ff:ff:ff -f 1 -m 68 -n 86 <interface>`
@@ -143,7 +143,7 @@ The Interactive Packet Replay attack allows you to choose a specific packet for 
 * `-m <num> - Minimum packet size`
 * `-n <num> - Maximum packet size`
 
-#### KoreK chopchop attack
+### KoreK chopchop attack
 
 The Korek chopchop attack, when successful, can decrypt a WEP data packet without knowing the WEP key and can even work against dynamic WEP.  
 
@@ -155,7 +155,7 @@ This attack does not recover the WEP key itself; it merely reveals the plaintext
 * `-b <ap> - The AP MAC address`
 * `-h <you> - The source MAC address
 
-#### Fragmentaion Attack
+### Fragmentaion Attack
 
 This attack works by obtaining a small amount of the keying material from the packet and then attempts to send ARP and/or LLC packets with known content to the AP.  If the packet is successfully echoed back by the AP, then a larger amount of the keying information can be obtained from the returned packet.  This process is repeated until 1500 bytes of the PRGA are obtained.
 > `aireplay-ng -5 -b <ap> -h <you> <interface>`
@@ -164,7 +164,7 @@ This attack works by obtaining a small amount of the keying material from the pa
 * `-b <ap> - The AP MAC address`
 * `-h <you> - Source MAC address`
 
-#### Craft ARP Request Packet**
+### Craft ARP Request Packet**
 
 Packetforge-ng is used to create encrypted packets that can later be used for injection.  You can create various types of packets such as UDP and ICMP packets although it is most commonly used to create ARP requests for subsequent injection.
 > `packetforge-ng -0 -a <ap> -h <you> -l <sourceIP> -k <destIP> -y <xorFile> -w <out>`
@@ -177,7 +177,7 @@ Packetforge-ng is used to create encrypted packets that can later be used for in
 * `-y <xorFile> - The PRGA filename`
 * `-w - The filename to save the packet to`
 
-#### Inject Packet/Interactive Packet Replay
+### Inject Packet/Interactive Packet Replay
 
 This attack uses a crafted ARP request packet and injects it to capture enough IVs to subsequently crack the WEP key on the AP
 
@@ -186,7 +186,7 @@ This attack uses a crafted ARP request packet and injects it to capture enough I
 * `-2 - Interactive Packet Replay Attack`
 * `-r <packet> - Filename of the crafted ARP packet`
 
-#### Fake Shared Key Authentication
+### Fake Shared Key Authentication
 
 This attack is used for bypassing WEP Share Key Authentication.  It uses a captured keystream file and conducts a fake authentication.
 
@@ -201,9 +201,9 @@ This attack is used for bypassing WEP Share Key Authentication.  It uses a captu
 
 ## WPA Attacks
 
-#### coWPAtty Attack 
+### coWPAtty Attack 
 
-##### Dictionary Mode
+#### Dictionary Mode
 
 coWPAtty is a versatile tool that can recover WPA pre-shared keys, from a captured handshake, using either dictionary or rainbow table attacks.
 
@@ -214,7 +214,7 @@ coWPAtty is a versatile tool that can recover WPA pre-shared keys, from a captur
 * `-2` - Use non-strict mode as coWPAtty has an issue with airodump-ng captures
 * `-s <essid> - The network ESSID
 
-##### Rainbow Table Mode
+#### Rainbow Table Mode
 
 Generate the hashes for our ESSID along with a dictionary file containing password
 
@@ -233,22 +233,22 @@ Run coWPAtty using the generated hashes
 * `-2` - Use non-strict mode as coWPAtty has an issue with airodump-ng captures
 * `-s <essid>` - The network ESSID
 
-#### Pyrit Sniff
+### Pyrit Sniff
 > `pyrit -r <interface> -o <capture> stripLive`
 
-#### Pyrit Crack Dictionary
+### Pyrit Crack Dictionary
 > `pyrit -r <capture> -i <wordlist> -b <ap> attack_passthrough`
 
-#### Pyrit Crack Database
+### Pyrit Crack Database
 Import Wordlist into Database
 > `pyrit -i <wordlist> import_passwords`
 
 Add the ESSID of the Access Point
 
-#### Pyrit Crack Dictionary
+### Pyrit Crack Dictionary
 > `pyrit -r <capture> -i <wordlist> -b <ap> attack_passthrough`
 
-#### Pyrit Crack Database
+### Pyrit Crack Database
 Import Wordlist into Database
 > `pyrit -i <wordlist> import_passwords`
 
