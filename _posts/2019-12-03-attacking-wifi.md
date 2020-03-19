@@ -259,7 +259,7 @@ Launching pyrit using a basic dictionary attack
 
 * `-r <capture>` - The capture file
 * `-i <wordlist>` - The wordlist file to use
-* `-b <ap>` - The OPTIONAL BSSID of the target AP
+* `-b <ap>` - The *OPTIONAL* BSSID of the target AP
 * `attack_passthrough` - Attempt to crack the WPA password using the wordlist
 
 ### Pyrit Crack Database
@@ -276,7 +276,7 @@ Launching pyrit using a basic dictionary attack
 > `pyrit -e <essid> create_essid`
 
 * `-e <essid>` - The network ESSID
-* `create_essid' - Import the network ESSID
+* `create_essid` - Import the network ESSID
 
 #### Compute the PMKs
 
