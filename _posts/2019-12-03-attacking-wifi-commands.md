@@ -24,7 +24,12 @@ This post will highlight many of the different aircrack-ng commands used in hack
   * [Craft ARP Request Packet](#craft-arp-request-packet)
   * [Inject Packet](#inject-packet)
   * [Fake Shared Key Authentication](#fake-shared-key-authentication) 
-  
+* [WPA Attacks](#wpa-attacks)
+  * [coWPAtty Attack](#cowpatty-attack)
+  * [Pyrit Sniff](#pyrit-sniff)
+  * [Pyrit Dictionary Crack](&pyrit-crack-dictionary)
+  * [Pyrit Database Crack](#pyrit-crack-database)
+ 
 ## General
 
 ### Monitor Mode
