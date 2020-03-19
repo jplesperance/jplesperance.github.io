@@ -234,22 +234,57 @@ Run coWPAtty using the generated hashes
 * `-s <essid>` - The network ESSID
 
 ### Pyrit Sniff
+
+Pyrit, like airolib-ng and coWPAtty, uses a pre-computed database of WPA pre-shared key tables, though with the distinct advantage of being able to leverage GPUs to accelerate the generation of PMK tables.
+
 > `pyrit -r <interface> -o <capture> stripLive`
 
+* `-r <interface>` - The wireless interface to use
+* `-o <capture>` - The file to save the captured data to
+* `striplive` - Only saves the WPA handshakes
+
+### Validate the 4-way handshake
+
+Pyrit is able to analyze the capture file and determine if the capture contains any valid handshakes
+
+> `pyrit -r <capture> analyze`
+
+* `-r <capture>` - The capture file
+
 ### Pyrit Crack Dictionary
+
+Launching pyrit using a basic dictionary attack
+
 > `pyrit -r <capture> -i <wordlist> -b <ap> attack_passthrough`
 
-### Pyrit Crack Database
-Import Wordlist into Database
-> `pyrit -i <wordlist> import_passwords`
-
-Add the ESSID of the Access Point
-
-### Pyrit Crack Dictionary
-> `pyrit -r <capture> -i <wordlist> -b <ap> attack_passthrough`
+* `-r <capture>` - The capture file
+* `-i <wordlist>` - The wordlist file to use
+* `-b <ap>` - The OPTIONAL BSSID of the target AP
+* `attack_passthrough` - Attempt to crack the WPA password using the wordlist
 
 ### Pyrit Crack Database
-Import Wordlist into Database
+
+#### Import Wordlist into Database
+
 > `pyrit -i <wordlist> import_passwords`
 
-Add the ESSID of the Access Point
+* `-i <wordlist>`- The wordlist to use
+* `import_passwords` - Import the passwords into the database
+
+#### Add the ESSID of the Access Point
+
+> `pyrit -e <essid> create_essid`
+
+* `-e <essid>` - The network ESSID
+* `create_essid' - Import the network ESSID
+
+#### Compute the PMKs
+
+> `pyrit batch`
+
+#### Launch Pyrit in database mode
+
+> `pyrit -r <capture> -b <ap> attack_db`
+
+* `-r <capture>` - The capture file
+* `-b <ap>` - The AP's MAC address
