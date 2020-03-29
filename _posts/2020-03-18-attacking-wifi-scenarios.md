@@ -1,5 +1,5 @@
 ---
-title: Wifi Attack - Scenarios
+title: Attacking Wifi - WEP Scenarios
 layout: post
 categories: [Hacking, Pen Testing, Wireless, Aircrack-ng]
 ---
