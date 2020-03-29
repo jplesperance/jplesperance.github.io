@@ -20,13 +20,18 @@ Most technically savvy individuals know that WEP encryption is a serious no-no, 
 
 The first step in every attack scenario is to place the wireless interface in monitor mode on the same channel as the access point.
 
-> `root@attacker:~# airmon-ng start wlan0 3`
+> `root@attacker:~# **airmon-ng start wlan0 3**
+
+  Interface        Chipset             Driver
+
+  wlan0            carl9170 - [phy0]
+                        (monitor mode enabled on mon0)`
 
 ### Recon
 
 Now, an Airodump sniffing session needs to be started and write the capture file to the disk for usage by Aircrack-ng for breaking the WEP key
 
-> `root@attacker:~# airodump-ng -c 3 --bssid 34:08:04:09:3D:38 -w wep1 mon0`
+> `root@attacker:~# **airodump-ng -c 3 --bssid 34:08:04:09:3D:38 -w wep1 mon0**`
 
 
 
