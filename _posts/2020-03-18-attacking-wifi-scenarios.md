@@ -24,7 +24,7 @@ The first step in every attack scenario is to place the wireless interface in mo
 > 
 > Interface&nbsp;&nbsp;&nbsp;&nbsp; Chipset           Driver
 
-This will set *wlan1*
+This will set **wlan1** into monitor mode as **mon0**
 
 ### Recon
 
