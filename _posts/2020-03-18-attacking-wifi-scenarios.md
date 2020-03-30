@@ -22,7 +22,7 @@ The first step in every attack scenario is to place the wireless interface in mo
 
 > root@attacker:~# **airmon-ng start wlan0 3**
 > 
-> Interface       Chipset           Driver
+> Interface&nbsp;&nbsp;&nbsp;&nbsp; Chipset           Driver
 
 This will set *wlan1*
 
