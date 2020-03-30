@@ -24,16 +24,16 @@ The first step in every attack scenario is to place the wireless interface in mo
 > 
 > Interface&nbsp;&nbsp;&nbsp;&nbsp; Chipset&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Driver
 >
-> wlan0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carl9170 - [phy0]
+> wlan0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carl9170 - [phy0]<br />
 > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(monitor mode enabled on mon0)
 
-This will set **wlan1** into monitor mode as **mon0**
+This will set **wlan0** into monitor mode as **mon0**
 
 ### Recon
 
 Now, an Airodump sniffing session needs to be started and write the capture file to the disk for usage by Aircrack-ng for breaking the WEP key
 
-> `root@attacker:~# airodump-ng -c 3 --bssid 34:08:04:09:3D:38 -w wep1 mon0`
+> root@attacker:~# **airodump-ng -c 3 --bssid 34:08:04:09:3D:38 -w wep1 mon0**
 
 
 
