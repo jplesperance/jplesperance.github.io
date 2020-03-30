@@ -22,7 +22,10 @@ The first step in every attack scenario is to place the wireless interface in mo
 
 > root@attacker:~# **airmon-ng start wlan0 3**
 > 
-> Interface&nbsp;&nbsp;&nbsp;&nbsp; Chipset           Driver
+> Interface&nbsp;&nbsp;&nbsp;&nbsp; Chipset&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Driver
+>
+> wlan0&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;carl9170 - [phy0]
+> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(monitor mode enabled on mon0)
 
 This will set **wlan1** into monitor mode as **mon0**
 
