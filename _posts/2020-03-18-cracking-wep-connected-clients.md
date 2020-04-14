@@ -63,7 +63,7 @@ The first method, is the default [IV-based cracking](https://lesperance.io/attac
 
 > root@attacker:~# **aircrack-ng wep1.pcap**
 
-The other option, which typically is a faster option, is the [PTW Crack](https://lesperance.io/attaking-wifi-commands#ptw-crack) method.  It should be noted, this method only works with ARP request/reply packets.
+The other option, which typically is a faster option, is the [PTW Crack](https://lesperance.io/attaking-wifi-commands#ptw-based-crack) method.  It should be noted, this method only works with ARP request/reply packets.
 
 > root@attacker:~# **aircrack-ng -z wep1.pcap**
 
