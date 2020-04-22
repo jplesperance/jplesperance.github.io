@@ -93,6 +93,13 @@ This method works for both WEP and WPA-PSK cracking.
 
 * `-w <wordlist>` The wordlist to use to try and crack WEP/WPA-PSK
 
+If the capture file does not contain the APs SSID, you will have to use the following command to specify the extra information aircrack needs for generating the PMKs
+
+> `aircrack-ng -w <wordlist> -e <essid> -b <bssid> <capture>`
+
+* `-e <essid>` The SSID of the AP
+* `-b <bssid>` The mac address of the AP
+
 ### Airolib DB Crack
 
 Airolib-ng is a tool for managing and storing ESSIDs and password lists, compute their Pairwise Master Keys, and use them to crack WPA and WPA2 passwords.
