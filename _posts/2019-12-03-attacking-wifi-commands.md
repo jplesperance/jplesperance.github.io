@@ -42,7 +42,7 @@ Below is a list of posts for this series.
 
 * *Overview & Commands* <-- This post
 * [Hacking WEP with Connected Clients](https://lesperance.io/hacking-wep-connected-clients)
-* [Hacking WEP via a Client]
+* [Hacking WEP via a Client](https://lesperance.io/hacking-wep-via-client)
 * [Bypassing WEP Shared Key Authentication]
 * [Hacking Clientless WEP Networks]
 * [Hacking WPA/WPA2 PSK]
