@@ -58,10 +58,13 @@ Once the attack is launched, Aireplay starts to listen for a packet that can be 
 
 Now that we have the PRGA file for the network, we can use packetforge-ng to craft an ARP Request Packet.
 
-> `root@attacker:~# **packetforge-ng -0 -a 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 -k <destIP> -l <srcIP> -y <PRGA_file> -w <output_file>`
+> root@attacker:~# **packetforge-ng -0 -a 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 -k <destIP> -l <srcIP> -y <PRGA_file> -w <output_file>
 
-This should result in displaying the network's WEP key.
+### KoreK ChopChop Attack
 
+Now, let's look at the KoreK ChopChop Attack.  When successful, it can decrypt WEP data packets without knowing the WEP key.  Additionally, it can even work against dynamic WEP.
+
+Not all APs are vuln
 
 
 

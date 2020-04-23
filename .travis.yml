@@ -1,3 +1,17 @@
 language: ruby
 rvm:
   - 2.4.4
+
+script: chmod +x ./script/jekyll-rebuild.sh && ./script/jekyll-rebuild.sh
+exclude: [vendor]
+
+branches:
+  only:
+    - master
+
+sudo: false
+
+cache: bundler
+
+notifications:
+  email: false
