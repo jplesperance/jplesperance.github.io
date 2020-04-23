@@ -8,6 +8,7 @@ Welcome to the Attacking Wifi Series.  This series of blog posts will cover diff
 This post will highlight many of the different aircrack-ng commands used in hacking/pen testing wireless networks.  This post does not go into the how, but is more of a reference of the commands and parameters.
 
 ## Table of Contents
+* [Posts in this series](#posts-in-this-series)
 * [General](#general)
   * [Monitor Mode](#monitor-mode)
   * [Scanning Networks](#scanning-networks)
@@ -33,6 +34,24 @@ This post will highlight many of the different aircrack-ng commands used in hack
   * [Pyrit Dictionary Crack](&pyrit-crack-dictionary)
   * [Pyrit Database Crack](#pyrit-crack-database)
  
+## Posts in this Series
+
+Since this series will be covering several Wifi hacking scenarios, I have decided to make each scenario its own post.  Each post will walk you through the attack.  Infomation is provided to allow you to setup each scenario in your own wifi lab so that you can actually practice the attack.  If you don't have a space AP to use for this, check out [Rasperry Pi as an Wifi AP](https://lesperance.io/rpi-wifi-ap) on how to create a wifi ap on a raspberry pi for the purpose of practicing hacking wifi.
+
+Below is a list of posts for this series.
+
+* *Overview & Commands* <-- This post
+* [Hacking WEP with Connected Clients](https://lesperance.io/hacking-wep-connected-clients)
+* [Hacking WEP via a Client]
+* [Bypassing WEP Shared Key Authentication]
+* [Hacking Clientless WEP Networks]
+* [Hacking WPA/WPA2 PSK]
+* [Cracking WPA with JTR and Aircrack-ng]
+* [Cracking WPA with coWPAtty]
+* [Cracking WPA with Pyrit]
+* [Wireless Recon]
+* [Rogue Access Points]
+* [Honeypots]
 ## General
 
 ### Monitor Mode
