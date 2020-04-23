@@ -41,17 +41,18 @@ Since this series will be covering several Wifi hacking scenarios, I have decide
 Below is a list of posts for this series.
 
 * *Overview & Commands* <-- This post
-* [Hacking WEP with Connected Clients](https://lesperance.io/hacking-wep-connected-clients)
-* [Hacking WEP via a Client](https://lesperance.io/hacking-wep-via-client)
-* [Hacking Clientless WEP Networks](https://lesperance.io/hacking-clientless-wep)
-* [Bypassing WEP Shared Key Authentication]
-* [Hacking WPA/WPA2 PSK]
-* [Cracking WPA with JTR and Aircrack-ng]
-* [Cracking WPA with coWPAtty]
-* [Cracking WPA with Pyrit]
-* [Wireless Recon]
-* [Rogue Access Points]
-* [Honeypots]
+* [Hacking WEP with Connected Clients](https://lesperance.io/hacking-wep-connected-clients) - Posted 3/18/20
+* [Hacking WEP via a Client](https://lesperance.io/hacking-wep-via-client) - Posted 4/23/20
+* [Hacking Clientless WEP Networks]() - Posted 4/25/20
+* [Bypassing WEP Shared Key Authentication]() - Posted 4/27/20
+* [Hacking WPA/WPA2 PSK]() - Posted 4/29/20
+* [Cracking WPA with JTR and Aircrack-ng]() - Posted 5/1/20
+* [Cracking WPA with coWPAtty]() - Posted 5/5/20
+* [Cracking WPA with Pyrit]() - Posted 5/10/20
+* [Wireless Recon]() - Posted 5/15/20
+* [Rogue Access Points]() - Posted 5/20/20
+* [Honeypots]() - Posted 5/25/20
+
 ## General
 
 ### Monitor Mode
