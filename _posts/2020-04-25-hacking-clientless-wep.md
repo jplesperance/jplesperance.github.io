@@ -58,13 +58,34 @@ Once the attack is launched, Aireplay starts to listen for a packet that can be 
 
 Now that we have the PRGA file for the network, we can use packetforge-ng to craft an ARP Request Packet.
 
-> root@attacker:~# **packetforge-ng -0 -a 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 -k <destIP> -l <srcIP> -y <PRGA_file> -w <output_file>
+> root@attacker:~# **packetforge-ng -0 -a 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 -k 255.255.255.255 -l 255.255.255.255 -y crafted-packet -w 
+
+One note on selecting the source and destination IP addresses, many APs will respond properly if you use 255.255.255.255 for both.
 
 ### KoreK ChopChop Attack
 
 Now, let's look at the KoreK ChopChop Attack.  When successful, it can decrypt WEP data packets without knowing the WEP key.  Additionally, it can even work against dynamic WEP.
 
-Not all APs are vuln
+Not all APs are vulnerable to the KoreK ChopChop Attack.  Some APs will drop packets shorter the 60 bytes.
 
+> root@attacker:~# **aireplay-ng -4 -b 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 mon0**
 
+Similar to the Fragmentation Attack, after launching the chopchop attack, you will be prompted to select the packet for the attack.  Additionally, the keystream will be saved into a XOR file that can be used to create a packet with packetforge-ng, using the packetforge command above.
 
+### Interactive Packet Replay
+
+Now we can take our ARP request packet that we crafted and inject it into the network with the Interactive Packet Replay to generate the IVs needed for cracking the WEP key.
+
+> root@attacker:~# **aireplay-ng -2 -r crafted-packet mon0**
+
+When promted to use the crafted packet, enter **y** to start the injection.
+
+If you check airodump, you should see the number of packets between your client and the AP should be constantly increasing.
+
+### Crack the WEP Key
+
+Now, we just need to run aircrack-ng against our running capture.
+
+> root@attacker:~# **aircrack-ng wep1.cap**
+
+Now we should be presented with the WEP key.
