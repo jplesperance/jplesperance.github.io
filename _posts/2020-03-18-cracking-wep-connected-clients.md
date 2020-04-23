@@ -1,7 +1,7 @@
 ---
-title: Cracking WEP With Connected Clients
+title: Attacking Wifi Series: Cracking WEP With Connected Clients
 layout: post
-categories: [Hacking, Pen Testing, Wireless, Aircrack-ng, WEP]
+categories: [Attacking Wifi, Hacking, Pen Testing, Wireless, Aircrack-ng, WEP]
 ---
 
 This post will build off of the [Attacking Wifi - Commands](https://lesperance.io/attacking-wifi-commands) post.  In this post, we will look at how to use different Wifi attack commands to crack the key of a WEP AP with at least 1 connected client.

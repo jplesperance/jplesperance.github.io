@@ -1,10 +1,13 @@
 ---
-title: Attacking Wifi - Commands
-categories: [Hacking, Pen Testing, Wireless, Aircrack-ng, WEP, WPA, WPA2, Pyrit, CoWPAtty]
+title: Attacking Wifi Series: Overview & Commands
+categories: [Attacking Wifi, Hacking, Pen Testing, Wireless, Aircrack-ng, WEP, WPA, WPA2, Pyrit, CoWPAtty, Rainbow Tables]
 layout: post
 ---
+Welcome to the Attacking Wifi Series.  This series of blog posts will cover different scenarios around Pentesting and Hacking Wifi.  
+
 This post will highlight many of the different aircrack-ng commands used in hacking/pen testing wireless networks.  This post does not go into the how, but is more of a reference of the commands and parameters.
 
+## Table of Contents
 * [General](#general)
   * [Monitor Mode](#monitor-mode)
   * [Scanning Networks](#scanning-networks)
