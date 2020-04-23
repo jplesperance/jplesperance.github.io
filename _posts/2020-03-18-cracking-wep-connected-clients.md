@@ -1,5 +1,5 @@
 ---
-title: Attacking Wifi Series: Cracking WEP With Connected Clients
+title: Attacking Wifi Series - Cracking WEP With Connected Clients
 layout: post
 categories: [Attacking Wifi, Hacking, Pen Testing, Wireless, Aircrack-ng, WEP]
 ---
