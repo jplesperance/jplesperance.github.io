@@ -4,13 +4,15 @@ layout: post
 categories: [Attacking Wifi, Hacking, Pen Testing, Wireless, Aircrack-ng, WEP]
 ---
 
-This post will build off of the [Attacking Wifi - Commands](https://lesperance.io/attacking-wifi-commands) post.  In this post, we will look at how to use different Wifi attack commands to crack the key of a WEP AP with at least 1 connected client.
+This post will build off of the [Attacking Wifi Series - Overview & Commands](https://lesperance.io/attacking-wifi-commands) post.  We will look at how to use different Wifi attack commands to crack the key of a WEP AP with at least 1 connected client.
 
 ### Overview
 
 Most technically savvy individuals know that WEP encryption is a serious no-no, though for various compatibility reasons, many corporate environments are still using WEP encryption in their wireless networks. 
 
-** Target Information **
+For this scenario, we will be using the information below to illustrate how to conduct the attack and attain the WEP key.
+
+**Target Information**
 * **BSSID**: 34:08:04:09:3D:38
 * **AP Channel**: 3
 * **ESSID**: hitme (Open Authentication)
