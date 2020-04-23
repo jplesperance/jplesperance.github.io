@@ -1,5 +1,5 @@
 ---
-title: Attacking Wifi Series - Hacking WEP via a Client
+title: Attacking Wifi Series, Part 3<br /> Hacking WEP via a Client
 layout: post
 categories: [Attacking Wifi, Hacking, Pen Testing, Wireless, Aircrack-ng, WEP]
 ---
