@@ -4,7 +4,7 @@ layout: post
 categories: [Attacking Wifi, Hacking, Pen Testing, Wireless, Aircrack-ng, WEP]
 ---
 
-This post we will discuss how to attack a client to force it to generate new IVs rather than the access point.
+In this post we will discuss how to attack a client to force it to generate new IVs rather than the access point.
 
 ### Overview
 
