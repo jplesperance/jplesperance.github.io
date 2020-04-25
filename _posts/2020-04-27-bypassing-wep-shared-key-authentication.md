@@ -4,18 +4,20 @@ layout: post
 categories: [Attacking Wifi, Hacking, Pen Testing, Wireless, Aircrack-ng, WEP]
 ---
 
-In the last couple of posts, we have covered hacking WEP networks that have connected clients.  What happens if there are no connected clients on the wireless network to help generate our ARP request?  There are 2 attack methods that are usable in this scenario, KoreK chopchop and the fragmentation attack.
+Up to this point, our attacks have been focused on WEP access points that were configured with open authentication.
+
+Now, we will focus on a WEP access point using a shared key for authentication.
 
 ### Overview
 
-There are times where you will find yourself in a place where the WEP wireless network you are pentesting/hacking has no connected clients.  This limits our ability to generate ARP packets on the network.  However, there are 2 attacks in the aircrack-ng arsenal that can help us in this situation, KoreK chopchop and the fragmentation attack.
+Unlike open authentication, shared key authentication requires more than just knowledge of the SSID, the same secret key must by known by the client and access point.
 
-For this scenario, we will be using the information below to illustrate how to conduct the attack and attain the WEP key.  There are several different methods of executing this attack.  I am only showing one of them here.  I may cover the others in a different post.
+For this scenario, we will be using the information below to illustrate how to conduct the attack and attain the WEP key.  
 
 **Target Information**
 * **BSSID**: 34:08:04:09:3D:38
 * **AP Channel**: 3
-* **ESSID**: hitme (Open Authentication)
+* **ESSID**: hitme (Shared Key Authentication)
 * **Client**: 00:18:4D:1D:A8:1F
 * **mon0**: 00:1F:33:F3:51:13
 
@@ -35,57 +37,60 @@ Now, an [Airodump sniffing session](https://lesperance.io/attacking-wifi-command
 
 This will start airodump-ng, listening on Channel 3 and filtering on the BSSID and saving the output to *wep1*
 
+Despite have shared key authentication configured on the access point, the AUTH column in airodump will not display SKA until a wireless client authenticates to the network.
+
 ### Authenticate
 
-We conduct a [fake authentication attack](https://lesperance.io/attacking-wifi-commands#fake-authentication) in order to be able to communicate with the AP.  Unlike in the previous posts, we will set a reassociation timer so that is doesn't time out
+Since the AUTH column is blank, we conduct a [fake authentication attack](https://lesperance.io/attacking-wifi-commands#fake-authentication) in order to be able to communicate with the AP.  
 
-> root@attacker:~# **aireplay-ng -1 6000 -e hitme -b 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 mon0**
+> root@attacker:~# **aireplay-ng -1 0 -e hitme -b 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 mon0**
 
-This allows us to associate with the access point and keeps our session alive.
+If the output from the fake authentication attack specifies *AP rejects open-system authentication*, we know that the access point is configured for share key authentication.
 
-### Fragmentation Attack
+We need to acquire a PRGA XOR file before we can conduct a successful fake authentication attack on the access point.  This file is acquired what a client connects to the network, which in a real world network environment can take a while to capture.  You really have 2 options when it comes to this:
+1 Be patient and wait for a client to connect, this is you only option if there are no currently connected clients on the network
+2 Run a deauthentication attack on one of the connected clients to force the client to reassociate to the network, allowing us to capture the shared key authentication handshake.
 
-The first of the 2 methods of attack we will be using is the [Fragmentation Attack](https://lesperance.io/attacking-wifi-commands#fragmentation-attack).  I have personally had more success using this method than I have with using the KoreK chopchop attack.
+After successfully completing the capture of the handshake, airodump with now show SKA in the AUTH column for the access point
 
-The Fragmentation Attack will help us attain the PRGA file.  While this file is not the WEP key, it can be used to craft a packet that can be used in various injection attacks.  The Fragmentation Attack requires at least one data packet to be received from the AP before an attack can be initiated.
+### Deauthentication Attack
 
+Since it is both faster and easy to deauthenticate a client, we will use that route in this scenario.
 
-> root@attacker:~# **aireplay-ng -5 -b 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 mon0**
+> root@attacker:~# **aireplay-ng -0 1 -a 34:08:04:09:3D:38 -c 00:18:4D:1D:A8:1F mon0**
 
-Once the attack is launched, Aireplay starts to listen for a packet that can be used and when it finds a candidate, you will be prompted about using the packet in the attack.  
+After, the client reconnects to the network and airodump will display that is has captured the keystream.
 
-### Crafting a Packet with the PRGA
+### Shared Key Fake Authentication Attack
 
-Now that we have the PRGA file for the network, we can use packetforge-ng to craft an ARP Request Packet.
+Now that we have the PRGA XOR file for the network, we can now conduct the shared key fake authentication attack, which is largely the same as the normal fake authentication attack.
 
-> root@attacker:~# **packetforge-ng -0 -a 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 -k 255.255.255.255 -l 255.255.255.255 -y crafted-packet -w 
+> root@attacker:~# **aireplay-ng -1 0 -e hitme -y wep1-34-08-04-09-3D-38.xor -a 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 mon0**
 
-One note on selecting the source and destination IP addresses, many APs will respond properly if you use 255.255.255.255 for both.
+The output from the attack should show that is was successful, which we can verify by checking that airodump shows our mac address as being associated with the access point.
 
-### KoreK ChopChop Attack
+### ARP Request Replay Attack
 
-Now, let's look at the KoreK ChopChop Attack.  When successful, it can decrypt WEP data packets without knowing the WEP key.  Additionally, it can even work against dynamic WEP.
+Now that we have gotten past the hurdle of shared key authentication on the access point, we can attack the access point as we did in the [Hacking WEP With Connected Clients](https://lesperance.io/hacking-wep-connected-clients) scenario.  In this case, we will use the ARP request replay attack due to its extreme reliability.
 
-Not all APs are vulnerable to the KoreK ChopChop Attack.  Some APs will drop packets shorter the 60 bytes.
+> root@attacker:~# **aireplay-ng -3 -b 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 mon0**
 
-> root@attacker:~# **aireplay-ng -4 -b 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 mon0**
+Now, aireplay is waiting for an ARP packet to appear on the network.  
 
-Similar to the Fragmentation Attack, after launching the chopchop attack, you will be prompted to select the packet for the attack.  Additionally, the keystream will be saved into a XOR file that can be used to create a packet with packetforge-ng, using the packetforge command above.
+### Deauthentication Attack
 
-### Interactive Packet Replay
+We can expedite this process by deauthenticating a connected wireless client.  Upon reconnection, it is highly likely the client will send an ARP packet.
 
-Now we can take our ARP request packet that we crafted and inject it into the network with the Interactive Packet Replay to generate the IVs needed for cracking the WEP key.
+> root@attacker:~# **aireplay-ng -0 1 -a 34:08:04:09:3D:38 -c 00:18:4D:1D:A8:1F mon0**
 
-> root@attacker:~# **aireplay-ng -2 -r crafted-packet mon0**
+Watching our ARP request replay attack, as soon as the client reconnects to the network, it catches an ARP packet and injects it into the network.
 
-When promted to use the crafted packet, enter **y** to start the injection.
-
-If you check airodump, you should see the number of packets between your client and the AP should be constantly increasing.
+Checking back to airodump, we can see that IVs are being captured at the rate of a couple hundred per second
 
 ### Crack the WEP Key
 
-Now, we just need to run aircrack-ng against our running capture.
+Now that we have captured around 30,000 IVs, we just need to run aircrack-ng against our running capture.
 
 > root@attacker:~# **aircrack-ng wep1.cap**
 
-Now we should be presented with the WEP key.
+Now we should be presented with the WEP key.  If however, aircrack was unable to successfully crack the key, with leaving both the airodump capture running along with aircrack, aircrack will reattempt to crack the key every 5000 new IVs captured.

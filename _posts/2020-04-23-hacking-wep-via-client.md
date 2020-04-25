@@ -19,7 +19,7 @@ However, there are some reasons for attacking the client instead of the AP.
 * You are unable to successfully fake auth the access point
 * You are out of range for the access point, but are in range of a client
 
-For this scenario, we will be using the information below to illustrate how to conduct the attack and attain the WEP key.  There are several different methods of executing this attack.  I am only showing one of them here.  I may cover the others in a different post.
+For this scenario, we will be using the information below to illustrate how to conduct the attack and attain the WEP key.  There are several different methods of executing this attack.  We are only showing one of those methods here, though, we may cover the other methods in a later post.
 
 **Target Information**
 * **BSSID**: 34:08:04:09:3D:38

@@ -78,7 +78,7 @@ Now we can take our ARP request packet that we crafted and inject it into the ne
 
 > root@attacker:~# **aireplay-ng -2 -r crafted-packet mon0**
 
-When promted to use the crafted packet, enter **y** to start the injection.
+When prompted to use the crafted packet, enter **y** to start the injection.
 
 If you check airodump, you should see the number of packets between your client and the AP should be constantly increasing.
 

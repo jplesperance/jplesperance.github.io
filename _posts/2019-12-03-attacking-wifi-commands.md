@@ -36,7 +36,7 @@ This post will highlight many of the different aircrack-ng commands used in hack
  
 ## Posts in this Series
 
-Since this series will be covering several Wifi hacking scenarios, I have decided to make each scenario its own post.  Each post will walk you through the attack.  Infomation is provided to allow you to setup each scenario in your own wifi lab so that you can actually practice the attack.  If you don't have a space AP to use for this, check out [Rasperry Pi as an Wifi AP](https://lesperance.io/rpi-wifi-ap) on how to create a wifi ap on a raspberry pi for the purpose of practicing hacking wifi.
+Since this series will be covering several Wifi hacking scenarios, we have decided to make each scenario its own post.  Each post will walk you through the steps of the attack.  While the steps provided are sufficient for carrying out the attacks, it is recommended that you attain an understanding of the attacks and why they work.  Information is provided to allow you to setup each scenario in your own wifi lab so that you can actually practice the attack.  If you don't have a space AP to use for this, check out [Rasperry Pi as an Wifi AP](https://lesperance.io/rpi-wifi-ap) on how to create a wifi ap on a raspberry pi for the purpose of practicing hacking wifi.
 
 Below is a list of posts for this series.
 
