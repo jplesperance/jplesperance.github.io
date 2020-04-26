@@ -49,9 +49,9 @@ Below is a list of posts for this series.
 * [Cracking WPA with JTR and Aircrack-ng](#) - Scheduled for 5/11/20
 * [Cracking WPA with coWPAtty](#) - Scheduled for 5/18/20
 * [Cracking WPA with Pyrit](#) - Scheduled for 5/25/20
-* [Wireless Recon](#) - Scheduled for 5/15/20
-* [Rogue Access Points](#) - Scheduled for 6/1/20
-* [Honeypots](#) - Scheduled for 6/8/20
+* [Wireless Recon](#) - Scheduled for 6/1/20
+* [Rogue Access Points](#) - Scheduled for 6/8/20
+* [Honeypots](#) - Scheduled for 6/15/20
 
 ## General
 
