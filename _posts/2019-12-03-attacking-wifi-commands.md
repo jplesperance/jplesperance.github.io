@@ -44,7 +44,7 @@ Below is a list of posts for this series.
 * [Hacking WEP with Connected Clients](https://lesperance.io/hacking-wep-connected-clients) - Published on 3/18/20
 * [Hacking WEP via a Client](https://lesperance.io/hacking-wep-via-client) - Published on 4/23/20
 * [Hacking Clientless WEP Networks](https://lesperance.io/hacking-clientless-wep) - Published on 4/25/20
-* [Bypassing WEP Shared Key Authentication](#) - Scheduled for 4/27/20
+* [Bypassing WEP Shared Key Authentication](https://lesperance.io/bypassing-wep-shared-key-authentication) - Posted on 4/27/20
 * [Hacking WPA/WPA2 PSK](#) - Scheduled for 5/4/20
 * [Cracking WPA with JTR and Aircrack-ng](#) - Scheduled for 5/11/20
 * [Cracking WPA with coWPAtty](#) - Scheduled for 5/18/20
