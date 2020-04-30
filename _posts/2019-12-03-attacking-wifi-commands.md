@@ -1,9 +1,9 @@
 ---
 title: Attacking Wifi Series, Part 1<br /> Overview & Commands
-categories: [Attacking Wifi, Hacking, Pen Testing, Wireless, Aircrack-ng, WEP, WPA, WPA2, Pyrit, CoWPAtty, Rainbow Tables]
+categories: [Attacking Wifi, Hacking, Pen Testing, Wireless, Aircrack-ng]
 layout: post
 ---
-Welcome to the Attacking Wifi Series.  This series of blog posts will cover different scenarios around Pentesting and Hacking Wifi.  
+Welcome to the Attacking Wifi Series.  This series of blog posts will cover different scenarios around pen testing and Hacking Wifi.  
 
 This post will highlight many of the different aircrack-ng commands used in hacking/pen testing wireless networks.  This post does not go into the how, but is more of a reference of the commands and parameters.
 
@@ -36,7 +36,7 @@ This post will highlight many of the different aircrack-ng commands used in hack
  
 ## Posts in this Series
 
-Since this series will be covering several Wifi hacking scenarios, we have decided to make each scenario its own post.  Each post will walk you through the steps of the attack.  While the steps provided are sufficient for carrying out the attacks, it is recommended that you attain an understanding of the attacks and why they work.  Information is provided to allow you to setup each scenario in your own wifi lab so that you can actually practice the attack.  If you don't have a space AP to use for this, check out [Rasperry Pi as an Wifi AP](https://lesperance.io/rpi-wifi-ap) on how to create a wifi ap on a raspberry pi for the purpose of practicing hacking wifi.
+Since this series will be covering several Wifi hacking scenarios, we have decided to make each scenario its own post.  Each post will walk you through the steps of the attack.  While the steps provided are sufficient for carrying out the attacks, it is recommended that you attain an understanding of the attacks and why they work.  Information is provided to allow you to setup each scenario in your own wifi lab so that you can actually practice the attack.  If you don't have a spare AP to use for this, check out [Rasperry Pi as an Wifi AP](https://lesperance.io/setting-up-wifi-ap-rpi) on how to create a wifi ap on a raspberry pi for the purpose of practicing hacking wifi.
 
 Below is a list of posts for this series.
 
@@ -44,7 +44,7 @@ Below is a list of posts for this series.
 * [Hacking WEP with Connected Clients](https://lesperance.io/hacking-wep-connected-clients) - Published on 3/18/20
 * [Hacking WEP via a Client](https://lesperance.io/hacking-wep-via-client) - Published on 4/23/20
 * [Hacking Clientless WEP Networks](https://lesperance.io/hacking-clientless-wep) - Published on 4/25/20
-* [Bypassing WEP Shared Key Authentication](#) - Scheduled for 4/27/20
+* [Bypassing WEP Shared Key Authentication](https://lesperance.io/bypassing-wep-share-key-authentication) - Published on 4/27/20
 * [Hacking WPA/WPA2 PSK](#) - Scheduled for 5/4/20
 * [Cracking WPA with JTR and Aircrack-ng](#) - Scheduled for 5/11/20
 * [Cracking WPA with coWPAtty](#) - Scheduled for 5/18/20
