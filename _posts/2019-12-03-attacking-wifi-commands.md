@@ -46,8 +46,6 @@ Below is a list of posts for this series.
 * [Hacking Clientless WEP Networks](https://lesperance.io/hacking-clientless-wep) - Published on 4/25/20
 * [Bypassing WEP Shared Key Authentication](https://lesperance.io/bypassing-wep-share-key-authentication) - Published on 4/27/20
 * [Hacking WPA/WPA2 PSK](#) - Scheduled for 5/4/20
-* [Cracking WPA with JTR and Aircrack-ng](#) - Scheduled for 5/11/20
-* [Cracking WPA with coWPAtty](#) - Scheduled for 5/18/20
 * [Cracking WPA with Pyrit](#) - Scheduled for 5/25/20
 * [Wireless Recon](#) - Scheduled for 6/1/20
 * [Rogue Access Points](#) - Scheduled for 6/8/20
