@@ -113,7 +113,7 @@ Let's add the following into the file:
     ignore_broadcast_ssid=0
     wpa=2
     wpa_key_mgmt=WPA-PSK
-    wap_pairwise=CCMP
+    wpa_pairwise=CCMP
     ssid=<network>
     wpa_passphrase=<password>
     
@@ -141,7 +141,7 @@ Find the line that begins with `#net.ipv4.ip_forward=1`, and delete the `#`, lea
 
 Now we will setup IP masquerading for outbound traffic on eth0
 
-    sudp iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+    sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
     
 Not, let's save the new rule:
     
