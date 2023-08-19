@@ -2,11 +2,11 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/blog/authors/johndoe</loc>
-<lastmod>2023-08-16T15:57:28-07:00</lastmod>
+<lastmod>2023-08-19T02:29:09-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/blog/authors/xplor4r</loc>
-<lastmod>2023-08-16T15:57:28-07:00</lastmod>
+<lastmod>2023-08-19T02:29:09-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/2019/12/03/attacking-wifi-commands/</loc>
@@ -42,15 +42,15 @@
 </url>
 <url>
 <loc>http://localhost:4000/products/product1/</loc>
-<lastmod>2023-08-16T15:57:28-07:00</lastmod>
+<lastmod>2023-08-19T02:29:09-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/products/product2/</loc>
-<lastmod>2023-08-16T15:57:28-07:00</lastmod>
+<lastmod>2023-08-19T02:29:09-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/products/product3/</loc>
-<lastmod>2023-08-16T15:57:28-07:00</lastmod>
+<lastmod>2023-08-19T02:29:09-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about/</loc>
@@ -99,6 +99,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/admin/</loc>
-<lastmod>2023-08-06T14:46:24-07:00</lastmod>
+<lastmod>2023-08-19T01:46:43-07:00</lastmod>
 </url>
 </urlset>
