@@ -27,7 +27,7 @@ author_email: "jesse@lesperance.io"
 author_location: US
 author_website_url: "https://lesperance.io"
 typewrite-text: 
-hero_cover_img:  Infosec.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+hero_cover_img:  sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
