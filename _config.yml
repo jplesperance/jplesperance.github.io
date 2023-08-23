@@ -14,8 +14,8 @@ urls:
       url: /about
     - text: Blog
       url: /blog
-    - text: Contact
-      url : /contact
+    - text: Github
+      url : https://github.com/jplesperance
 
 
 # Edit Author details (For multi authors check _data/authors.yml)
