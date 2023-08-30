@@ -1,7 +1,7 @@
 ---
 title: Hacking WPA/WPA2 PSK
 layout: post
-category: attacking wifi
+category: ['attacking wifi series','wireless pen testing']
 author: jesse
 thumbnail: /assets/img/evil-wifi.png
 date: 2020-05-04T00:00:00:01.613Z
