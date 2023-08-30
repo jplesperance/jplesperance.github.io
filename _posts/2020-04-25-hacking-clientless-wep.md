@@ -1,7 +1,13 @@
 ---
-title: Attacking Wifi Series, Part 4<br /> Hacking Clientess WEP Networks
+title: Hacking Clientess WEP Networks
 layout: post
-categories: [Attacking Wifi, Hacking, Pen Testing, Wireless, Aircrack-ng, WEP]
+category: attacking wifi
+author: jesse
+thumbnail: /assets/img/evil-wifi.png
+date: 2020-04-25T00:00:00:01.613Z
+summary: How to hack WEP networks with no connected clients
+keywords: access wifi attacking security wep bypass authentication
+permalink: /blog/hacking-clientless-wep/
 ---
 
 In the last couple of posts, we have covered hacking WEP networks that have connected clients.  What happens if there are no connected clients on the wireless network to help generate our ARP request?  There are 2 attack methods that are usable in this scenario, KoreK chopchop and the fragmentation attack.
