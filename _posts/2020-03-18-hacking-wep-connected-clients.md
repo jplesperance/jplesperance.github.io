@@ -5,7 +5,7 @@ category: attacking wifi series
 author: jesse
 thumbnail: /assets/img/evil-wifi.png
 date: 2020-03-18T00:00:00:01.613Z
-summary: Hacking a wep network with connected clients
+summary: We will look at how to use different Wifi attack commands to crack the key of a WEP AP with at least 1 connected client
 keywords: access wifi attacking security wep hacking client authentication
 permalink: /blog/hacking-wep-connected-clients/
 ---

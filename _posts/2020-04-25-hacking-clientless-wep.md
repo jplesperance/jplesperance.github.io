@@ -5,7 +5,7 @@ category: attacking wifi series
 author: jesse
 thumbnail: /assets/img/evil-wifi.png
 date: 2020-04-25T00:00:00:01.613Z
-summary: How to hack WEP networks with no connected clients
+summary: In this post, we will discuss how to bypass authentication when there are no clients connected to the WEP network
 keywords: access wifi attacking security wep bypass authentication
 permalink: /blog/hacking-clientless-wep/
 ---

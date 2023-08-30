@@ -5,7 +5,7 @@ category: attacking wifi series
 author: jesse
 thumbnail: /assets/img/evil-wifi.png
 date: 2020-04-27T00:00:00:01.613Z
-summary: How to bypass WEP shared key authentication
+summary: In this post, we will focus on attacking an access point that utilizes shared-key authentication 
 keywords: access wifi attacking security wep bypass authentication
 permalink: /blog/bypass-wep-shared-key-auth/
 ---

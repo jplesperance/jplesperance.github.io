@@ -5,7 +5,7 @@ category: attacking wifi series
 author: jesse
 thumbnail: /assets/img/evil-wifi.png
 date: 2020-04-23T00:00:00:01.613Z
-summary: Hacking a WEP network via a connected client
+summary: In this post we will discuss how to attack a client to force it to generate new IVs rather than the access point
 keywords: access wifi attacking security wep hacking client authentication
 permalink: /blog/hacking-wep-client/
 ---

@@ -5,7 +5,7 @@ layout: post
 author: jesse
 thumbnail: /assets/img/evil-wifi.png
 date: 2019-12-03T00:00:00:01.613Z
-summary: Commands and tools for attacking wifi networks
+summary: An introduction to tools and associated commands for attacking wifi networks
 keywords: access wifi attacking security wep hacking cracking commands wpa wpa2
 permalink: /blog/attacking-wifi-commands/
 ---

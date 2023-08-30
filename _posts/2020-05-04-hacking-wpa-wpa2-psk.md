@@ -5,7 +5,7 @@ category: attacking wifi series
 author: jesse
 thumbnail: /assets/img/evil-wifi.png
 date: 2020-05-04T00:00:00:01.613Z
-summary: Diving into attacking wpa/wpa2 PSKs
+summary: We will show you how to use aircrack-ng by itself, with an airolib-ng database and with John the Ripper to crack WPA/WPA2 passwords
 keywords: attacking wifi hacking wpa wpa2 psk cracking
 permalink: /blog/hacking-wpa2-psk/
 ---
