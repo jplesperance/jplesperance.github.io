@@ -2,6 +2,7 @@
 title: Dangers of using Open and Public Wifi Hotspots
 category: 'wifi security'
 layout: post
+author: jesse
 date: 2023-04-18T00:00:00:01.613Z
 summary: Discussing the top risks for public wifi access
 keywords: wifi security public hotspots open access vulnerable risks attacks
