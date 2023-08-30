@@ -1,6 +1,6 @@
 ---
 title: Setting up a Rasberry Pi as a Wireless AP
-category: attacking wifi
+category: wifi security
 layout: post
 author: jesse
 thumbnail: /assets/img/wifi.png

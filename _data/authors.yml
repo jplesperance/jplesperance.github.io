@@ -4,8 +4,8 @@ jesse:
    username: jesse
    site: https://lesperance.io
    avatar: jesse.webp
-   bio: "Hi I a John, a Web Developer and Designer."
-   email: mail@johndoe.com
+   bio: 
+   email: 
    social:
       - title: "github"
         url: "https://github.com/jplesperance"

@@ -1,6 +1,6 @@
 ---
 title: Dangers of using Open and Public Wifi Hotspots
-category: 'wifi security'
+category: wifi security
 layout: post
 author: jesse
 thumbnail: /assets/img/wifi.png

@@ -1,7 +1,13 @@
 ---
-title: Attacking Wifi Series, Part 5<br />Bypassing WEP Shared Key Authentication
+title: Bypassing WEP Shared Key Authentication
 layout: post
-categories: [Attacking Wifi, Hacking, Pen Testing, Wireless, Aircrack-ng, WEP]
+categories: attacking wifi
+author: jesse
+thumbnail: /assets/img/wifi.png
+date: 2020-04-27T00:00:00:01.613Z
+summary: How to bypass WEP shared key authentication
+keywords: access wifi attacking security wep bypass authentication
+permalink: /blog/bypass-wep-shared-key-auth/
 ---
 
 Up to this point, our attacks have been focused on WEP access points that were configured with open authentication.

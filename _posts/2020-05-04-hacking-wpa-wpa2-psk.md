@@ -1,7 +1,7 @@
 ---
-title: Attacking Wifi Series, Part 6<br />Hacking WPA/WPA2 PSK
+title: Hacking WPA/WPA2 PSK
 layout: post
-category: 'wifi security'
+category: attacking wifi
 author: jesse
 thumbnail: /assets/img/wifi.png
 date: 2020-05-04T00:00:00:01.613Z
