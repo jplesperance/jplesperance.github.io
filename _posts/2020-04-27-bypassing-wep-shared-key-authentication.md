@@ -1,7 +1,7 @@
 ---
 title: Bypassing WEP Shared Key Authentication
 layout: post
-categories: attacking wifi
+category: attacking wifi
 author: jesse
 thumbnail: /assets/img/evil-wifi.png
 date: 2020-04-27T00:00:00:01.613Z
