@@ -1,7 +1,11 @@
 ---
 title: Dangers of using Open and Public Wifi Hotspots
-categories: [Attacking Wifi, Wireless]
+category: 'wifi security'
 layout: post
+date: 2023-04-18T00:00:00:01.613Z
+summary: Discussing the top risks for public wifi access
+keywords: wifi security public hotspots open access vulnerable risks attacks
+permalink: /blog/dangers-public-wifi/
 ---
 Public Wi-Fi networks are a convenient way to stay connected to the internet while on the go. However, using public Wi-Fi can also be risky, as these networks are often unsecured and can leave your personal information vulnerable to hackers and cybercriminals. In this article, we'll discuss the top 3 risks and dangers of connecting to public Wi-Fi networks and provide some recommendations on how to mitigate those risks.
 
