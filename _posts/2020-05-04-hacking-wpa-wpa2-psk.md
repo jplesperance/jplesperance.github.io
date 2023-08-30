@@ -41,7 +41,7 @@ Now, an [Airodump sniffing session](https://lesperance.io/attacking-wifi-command
 
 This will start airodump-ng, listening on Channel 3 and filtering on the BSSID and saving the output to *wep1*.  Our goal is to capture the WPA 4-way handshake, which takes place when a wireless client connects and authenticates to the access point.
 
-### Deauthentication Attack
+### De-authentication Attack
 
 We could passively capture the WPA handshake by allowing airodump-ng to run until a new wireless client connects and authenticates to our target network.  However, we could use a deauthentication attack on a connected client to speed up the process, which is what we will do here.
 

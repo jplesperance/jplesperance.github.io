@@ -5,8 +5,8 @@
     <description>Jesse P Lesperance a highly skilled leader in the Information Security space/community.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 29 Aug 2023 20:11:26 -0700</pubDate>
-    <lastBuildDate>Tue, 29 Aug 2023 20:11:26 -0700</lastBuildDate>
+    <pubDate>Tue, 29 Aug 2023 22:03:09 -0700</pubDate>
+    <lastBuildDate>Tue, 29 Aug 2023 22:03:09 -0700</lastBuildDate>
     <generator>Jekyll v4.3.2</generator>
 
     
@@ -100,7 +100,7 @@
 
 &lt;p&gt;This will start airodump-ng, listening on Channel 3 and filtering on the BSSID and saving the output to &lt;em&gt;wep1&lt;/em&gt;.  Our goal is to capture the WPA 4-way handshake, which takes place when a wireless client connects and authenticates to the access point.&lt;/p&gt;
 
-&lt;h3 id=&quot;deauthentication-attack&quot;&gt;Deauthentication Attack&lt;/h3&gt;
+&lt;h3 id=&quot;de-authentication-attack&quot;&gt;De-authentication Attack&lt;/h3&gt;
 
 &lt;p&gt;We could passively capture the WPA handshake by allowing airodump-ng to run until a new wireless client connects and authenticates to our target network.  However, we could use a deauthentication attack on a connected client to speed up the process, which is what we will do here.&lt;/p&gt;
 
