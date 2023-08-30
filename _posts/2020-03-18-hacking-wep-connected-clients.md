@@ -1,7 +1,7 @@
 ---
 title: Hacking WEP With Connected Clients
 layout: post
-category: attacking wifi
+category: attacking wifi series
 author: jesse
 thumbnail: /assets/img/evil-wifi.png
 date: 2020-03-18T00:00:00:01.613Z

@@ -1,6 +1,6 @@
 ---
 title: Overview & Commands
-category: attacking wifi
+category: attacking wifi series
 layout: post
 author: jesse
 thumbnail: /assets/img/evil-wifi.png
