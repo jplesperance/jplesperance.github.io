@@ -1,7 +1,13 @@
 ---
 title: Setting up a Rasberry Pi as a Wireless AP
-categories: [Raspberry Pi, HostAPd, Wireless]
+category: attacking wifi
 layout: post
+author: jesse
+thumbnail: /assets/img/wifi.png
+date: 2020-05-04T00:00:00:01.613Z
+summary: Using a raspberry pi to create a wireless access point
+keywords: access wifi ap wpa wpa2 psk rpi
+permalink: /blog/setup-wifi-ap-rpi/
 ---
 
 Whether you are looking to expand your wifi network or want a wifi pen testing lab, it is always good to know how to turn a Raspberry Pi into a wireless access point.
