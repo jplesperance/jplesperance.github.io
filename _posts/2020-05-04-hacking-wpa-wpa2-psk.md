@@ -1,7 +1,13 @@
 ---
 title: Attacking Wifi Series, Part 6<br />Hacking WPA/WPA2 PSK
 layout: post
-categories: [Attacking Wifi, Hacking, Pen Testing, Wireless, Aircrack-ng, WPA, WPA2]
+category: 'attacking wifi'
+author: jesse
+thumbnail: /assets/img/wifi.png
+date: 2020-05-04T00:00:00:01.613Z
+summary: Diving into attacking wpa/wpa2 PSKs
+keywords: attacking wifi hacking wpa wpa2 psk cracking
+permalink: /blog/hacking-wpa2-psk/
 ---
 
 In this post we are are going to move on to cracking WPA/WPA2 Pre-shared keys using aircrack-ng.  We will show you how to use aircrack-ng by itself, with an airolib-ng database and with John the Ripper to crack WPA/WPA2 passwords
