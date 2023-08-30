@@ -3,7 +3,7 @@ title: Hacking WPA/WPA2 PSK
 layout: post
 category: attacking wifi
 author: jesse
-thumbnail: /assets/img/wifi.png
+thumbnail: /assets/img/evil-wifi.png
 date: 2020-05-04T00:00:00:01.613Z
 summary: Diving into attacking wpa/wpa2 PSKs
 keywords: attacking wifi hacking wpa wpa2 psk cracking
