@@ -28,12 +28,12 @@ layout: default
         >
           <i class="fab fa-facebook-f"></i>
         </a>
-        {% endif %} {% if site.instagram_username %}
+        {% endif %} {% if site.hackthebox_profile %}
         <a
           class="social-link"
-          href="http://instagram.com/{{ site.instagram_username }}"
+          href="{{ site.hackthebox_profile }}"
         >
-          <i class="fab fa-instagram"></i>
+          <i class="fab fa-hackerrank"></i>
         </a>
         {% endif %} {% if site.medium_username %}
         <a
@@ -81,10 +81,7 @@ layout: default
         >
           <i class="fab fa-flickr"></i>
         </a>
-        {% endif %} {% if site.hackthebox_profile %}
-        <a class="social-link" href="https://app.hackthebox.com/profile/425475"> <i class="fab fa-github"></i>
-        </a>
-        {% endif %}
+        {% endif %} 
       </p>
 
       {% if site.author_location %}
