@@ -6,6 +6,10 @@ description: >- # this means to ignore newlines until "baseurl:"
 url: "https://lesperance.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
+# SMS program (A2P 10DLC) - set this to your Twilio number before submitting for review
+sms_number: "+1 (XXX) XXX-XXXX"
+sms_contact_email: jesse@lesperance.io
+
 # Navigation
 urls:
     - text: Home
