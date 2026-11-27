@@ -1,10 +1,14 @@
 title: Jesse P Lesperance
 subtitle: InfoSec Leader, Mentor, Advisor, Board Member, Community Organizer
 description: >- # this means to ignore newlines until "baseurl:"
-  Jesse P Lesperance a highly skilled leader in the Information Security space/community.
+  InfoSec Leader, Board Member, Martial Artist, and Father.
 
 url: "https://lesperance.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
+
+# SMS program (A2P 10DLC) - set this to your Twilio number before submitting for review
+sms_number: "+1 (XXX) XXX-XXXX"
+sms_contact_email: jesse@lesperance.io
 
 # Navigation
 urls:
@@ -22,11 +26,11 @@ urls:
 
 author_logo: jesse.webp
 author: Jesse P Lesperance
-author_bio: 
-author_email: 
-author_location: US
+author_bio: Visionary cybersecurity and DevOps leader with a proven ability to transform complex challenges into innovative solutions. A polymath with deep expertise across cloud security, application security, penetration testing, and compliance frameworks, Jesse thrives in high-impact environments, quickly mastering new technologies and driving strategic security initiatives. Known for his dynamic leadership, he has built and led multiple security departments, fostering a culture of collaboration and technical excellence.<br /><br />Jesse is a natural problem solver with a strategic mindset, always seeking to optimize security, performance, and operational efficiency. His ability to mentor and elevate teams, combined with a relentless drive for innovation, makes him an asset to any organization. Whether architecting secure cloud environments, leading white-hat hacking initiatives, or implementing zero-trust security models, Jesse consistently delivers critical results while fostering camaraderie and a shared commitment to security excellence.
+author_email: jesse@lesperance.io
+author_location: California, US
 author_website_url: "https://lesperance.io"
-typewrite-text: 
+typewrite-text: InfoSec Leader, Martial Artist, and Father
 hero_cover_img:  sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
@@ -116,10 +120,10 @@ twitter_username: jlesperance
 github_username:  jplesperance
 facebook_username: 
 linkedin_username: jesseplesperance
-behance_username: 
+discord_username: 0xN16h7M4R3
 instagram_username: 
-medium_username: 
-telegram_username: 
+medium_username: jlesperance
+telegram_username: jplesperance
 dribbble_username: 
 flickr_username: 
 hackthebox_profile: https://app.hackthebox.com/profile/425475
